@@ -38,11 +38,24 @@ The visual direction combines existing co-authorial presentation language, scann
 
 All data is fictional or generic. No private conversations, institutional material, internal IPs, credentials, budgets, or supplier details are included.
 
+## Current interface components
+
+The current prototype translates the selected Manuals Plus reference set into:
+
+- apparatus state strip;
+- source signal trace;
+- 4-channel story generator;
+- score calibration table;
+- printer feed and fault panel;
+- ledger recorder;
+- maintenance / refusal page;
+- public receipt sheet.
+
 ## Future directions
 
 - Connect to a local JSON ledger.
 - Add multiple story modes.
-- Add score presets.
-- Add a real terminal print simulation.
+- Add more score presets.
+- Add real terminal print simulation receipts.
 - Add printer status only after sanitization.
 - Add screenshots as public receipts.
