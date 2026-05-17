@@ -55,9 +55,11 @@ existing co-authorial presentation language
 + dot-matrix archive
 ```
 
-The term `dashboard` is intentionally avoided. The preferred frame is `apparatus console` or `operator console`.
+The term `dashboard` is intentionally avoided. The preferred frame is now **Mesa de Inscrição**, with **Console do Aparato Terra Viva** as technical subtitle.
 
 After the first public version, the console interface was translated to Brazilian Portuguese and recolored to follow the chromatic direction of the existing co-authorial presentation: dark field, white typography, green/teal signal accents, orange section markers, and restrained technical panels.
+
+The repository is documented in English for technical circulation. The apparatus interface operates in Brazilian Portuguese because pt-BR is the language of the artwork, its context, and its public address.
 
 ## Reference set translated into interface components
 
@@ -67,7 +69,7 @@ The second command center iteration translated the selected Manuals Plus referen
 | --- | --- |
 | Marconi TK 1803 Control Panel | Apparatus state strip |
 | HP 3562A Dynamic Signal Analyzer | Source signal trace |
-| Tektronix PI-210 Word Generator | 4-channel story generator |
+| Tektronix PI-210 Word Generator | 4-channel story composition |
 | Tektronix PI-100A Clock Generator | Score calibration table |
 | Teletype AN/FGC-36 Page Teletypewriter Set | Printer feed and fault panel |
 | Tau-Tron MR-1 Data Logging Printer | Public receipt sheet |
@@ -84,8 +86,8 @@ The prototype now includes:
 2. **Source signal trace**  
    A simulated signal panel for the fictional public signal cluster.
 
-3. **4-channel story generator**  
-   Channels: `SOURCE`, `VOICE`, `CONSTRAINT`, `PAPER`.
+3. **4-channel story composition**  
+   Channels: `FONTE`, `VOZ`, `RESTRIÇÃO`, `PAPEL`.
 
 4. **Score calibration table**  
    Fields: pulse, density, line width, silence before, silence after.
@@ -127,7 +129,9 @@ SILENCE
 ARCHIVED
 ```
 
-The cycle uses a fictional source packet about rare earths, data centers, water, and e-waste. It then displays a short fictional story, calibrates a sonic score, simulates paper output, logs events, and produces a receipt.
+The cycle uses a fictional source packet about rare earths, data centers, water, and e-waste. It then displays a **conto de calibração**, calibrates a sonic score, simulates paper output, logs events, and produces a receipt.
+
+The calibration story is synthetic test material. It does not document a real event and does not define the final literary voice of Projeto 2047 / Arquivo Terra Viva.
 
 ## Refusal behavior
 

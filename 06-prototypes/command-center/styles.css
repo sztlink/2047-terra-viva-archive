@@ -359,6 +359,16 @@ h2 {
   border-color: rgba(0, 168, 123, 0.4);
 }
 
+.calibrationNotice {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-left: 4px solid var(--orange);
+  background: rgba(208, 122, 45, 0.09);
+  color: var(--text-soft);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .storyOut,
 .ledgerOut,
 .receiptOut {

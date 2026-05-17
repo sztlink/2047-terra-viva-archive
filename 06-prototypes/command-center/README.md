@@ -2,7 +2,9 @@
 
 This is a static public prototype for testing the 2047 generative loop as an operator interface.
 
-The repository documentation is in English, but the console itself is in Brazilian Portuguese because the work's operating language is pt-BR.
+The public title is **Mesa de Inscrição**. The technical subtitle is **Console do Aparato Terra Viva**.
+
+The repository documentation is in English for technical circulation. The apparatus interface operates in Brazilian Portuguese because pt-BR is the language of the artwork, its context, and its public address.
 
 It is not the artwork interface, not an institutional dashboard, and not a production system. It is a visual test surface for the apparatus logic:
 
@@ -52,7 +54,7 @@ The current prototype translates the selected Manuals Plus reference set into:
 
 - apparatus state strip;
 - source signal trace;
-- 4-channel story generator;
+- 4-channel story composition;
 - score calibration table;
 - printer feed and fault panel;
 - ledger recorder;
@@ -62,7 +64,7 @@ The current prototype translates the selected Manuals Plus reference set into:
 ## Future directions
 
 - Connect to a local JSON ledger.
-- Add multiple story modes.
+- Add multiple calibration story modes.
 - Add more score presets.
 - Add real terminal print simulation receipts.
 - Add printer status only after sanitization.

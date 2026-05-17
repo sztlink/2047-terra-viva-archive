@@ -143,7 +143,8 @@ function renderReceipt(status) {
     `CONTO: ${packet.conto.id_conto}`,
     `PARTITURA: ${packet.partitura.id_partitura}`,
     `DATA FICCIONAL: ${packet.conto.data_ficcional}`,
-    'MODO: SIMULAÇÃO DE IMPRESSÃO',
+    'MODO: SIMULAÇÃO DE INSCRIÇÃO',
+    'TIPO: CONTO DE CALIBRAÇÃO',
     'LIBERAÇÃO: ENTRADA SINTÉTICA PÚBLICA',
     'NOTA: NENHUMA IMPRESSORA FÍSICA CONECTADA'
   ].join('\n');
@@ -199,11 +200,11 @@ async function runCycle() {
   setState('WRITING');
   setChannel('voice', 'ficção situada, demonstração pública');
   setChannel('constraint', 'conto curto, sem fonte privada');
-  els.storyOut.textContent = `${packet.conto.titulo}\n${packet.conto.data_ficcional}\n\nescrevendo...`;
+  els.storyOut.textContent = `CONTO DE CALIBRAÇÃO\nmaterial ficcional sintético\n\n${packet.conto.titulo}\n${packet.conto.data_ficcional}\n\nescrevendo...`;
   logEvent('ESCRITA', 'canais do conto sincronizados');
   await sleep(900);
 
-  els.storyOut.textContent = `${packet.conto.titulo}\n${packet.conto.data_ficcional}\n\n${packet.conto.corpo.join('\n')}`;
+  els.storyOut.textContent = `CONTO DE CALIBRAÇÃO\nmaterial ficcional sintético\n\n${packet.conto.titulo}\n${packet.conto.data_ficcional}\n\n${packet.conto.corpo.join('\n')}`;
   await sleep(700);
 
   setState('SCORING');
