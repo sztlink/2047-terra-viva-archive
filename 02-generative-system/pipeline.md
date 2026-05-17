@@ -34,6 +34,8 @@ The text engine should not behave like an open chatbot. It should behave like a 
 
 The primary form is the **short story**. The system may use documents, bulletins, testimony, reports, and archive fragments as internal modes, but the generated output should be understood as literary material before it becomes paper.
 
+The text engine may eventually use a fine-tuned model or adapter trained on a cleared authorial corpus. That model would shape voice and form, while retrieval and ledgers preserve sources, facts, and evolving project state.
+
 The system should know what it is allowed to transform and what must remain stable.
 
 ## Image layer
@@ -62,3 +64,5 @@ The printer performs the text. Cadence is not decoration. It is part of the gene
 ## Technical posture
 
 The system may begin with remote APIs or hybrid infrastructure. A fully local system remains conceptually strong, but it requires separate validation of cost, stability, heat, noise, maintenance, and exhibition constraints.
+
+The physical printer controller and the model host are separate roles. A local controller can run the 100-day apparatus while sending generation requests to a remote or hosted model. This keeps the printer, logs, score, fallback, and paper archive local without requiring the full model to run beside the printer.

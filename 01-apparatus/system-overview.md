@@ -30,7 +30,7 @@ physical archive in formation
 
 ## Controller
 
-The controller is the operational computer that coordinates sources, state, generation, printing, logging, and optional visual output.
+The controller is the operational computer that coordinates sources, state, generation requests, sonic score, printing, logging, and optional visual output.
 
 At this stage, the controller is not assumed to run all AI models locally. The system may be:
 
@@ -39,9 +39,15 @@ At this stage, the controller is not assumed to run all AI models locally. The s
 - local-first;
 - fully local only if hardware, budget, stability, and exhibition constraints allow it.
 
+For a 100-day writing and printing apparatus, the controller should be understood as physical runtime infrastructure: it stays with the printer, keeps local ledgers, manages silence and failure, and sends print jobs. The model host may be somewhere else.
+
+See `local-controller.md`.
+
 ## Printer
 
-The dot-matrix printer is the primary material output device. It converts generative text into mechanical rhythm, ink, paper, and cumulative archive.
+The dot-matrix printer is the primary material output device. It converts generative short stories into mechanical rhythm, ink, paper, and cumulative archive.
+
+For the current Epson FX-2190 prototype, USB is the preferred practical connection path. Parallel belongs to the printer's historical media context but is not the preferred automation path for the first stable system.
 
 ## Hardware body
 

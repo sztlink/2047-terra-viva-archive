@@ -72,11 +72,13 @@ The project refuses the fantasy that computation is clean or immaterial. AI depe
 
 1. `02-generative-system/pipeline.md`
 2. `02-generative-system/sonic-cadence-and-score.md`
-3. `02-generative-system/dramaturgical-constraints.md`
-4. `02-generative-system/memory-and-state.md`
-5. `01-apparatus/hardware-ewaste-scenography.md`
-6. `03-field-notes/2026-05-initial-development.md`
-7. Future prototype receipts and diagrams.
+3. `02-generative-system/model-voice-and-training.md`
+4. `02-generative-system/dramaturgical-constraints.md`
+5. `02-generative-system/memory-and-state.md`
+6. `01-apparatus/local-controller.md`
+7. `01-apparatus/hardware-ewaste-scenography.md`
+8. `03-field-notes/2026-05-initial-development.md`
+9. Future prototype receipts and diagrams.
 
 ## Current roadmap
 

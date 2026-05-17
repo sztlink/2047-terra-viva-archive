@@ -152,6 +152,7 @@ Define how the generative system writes without becoming an unconstrained chatbo
 
 - `02-generative-system/dramaturgical-constraints.md`
 - `02-generative-system/sonic-cadence-and-score.md`
+- `02-generative-system/model-voice-and-training.md`
 - `02-generative-system/source-ledger.md`
 - `02-generative-system/print-ledger-schema.md`
 - `02-generative-system/fallback-modes.md`
@@ -162,6 +163,8 @@ Define how the generative system writes without becoming an unconstrained chatbo
 - What is allowed to be generated freely?
 - How does the machine write short stories rather than summaries?
 - How does szt.link calibrate the printer's sonic cadence?
+- Should the writing model be generic, retrieved, fine-tuned, or hybrid?
+- Which authorial corpus is cleared for training?
 - Should public news sources be named or abstracted?
 - Should the system cite sources internally, publicly, or not at all?
 - What is the relation between present date and fictional 2047 date?
@@ -179,6 +182,7 @@ Specify the material body of the installation without turning e-waste into gener
 
 **Outputs**
 
+- `01-apparatus/local-controller.md`
 - `01-apparatus/hardware-body.md`
 - `01-apparatus/e-waste-sourcing-ethics.md`
 - `01-apparatus/living-and-dead-hardware.md`
