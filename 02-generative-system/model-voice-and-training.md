@@ -1,6 +1,6 @@
 # Model voice and training path
 
-This file records a possible model strategy for the 100-day writing machine.
+This file records a possible model strategy for a long-duration writing machine.
 
 It is not a final training plan and not a rights clearance document.
 
@@ -8,7 +8,9 @@ It is not a final training plan and not a rights clearance document.
 
 The writing engine should not behave like a generic art-and-technology assistant.
 
-If the work becomes a 100-day continuous book-writing apparatus, the model should learn from a carefully cleared corpus connected to the authors' public writing, vocabulary, and conceptual fields.
+If the work becomes a continuous book-writing apparatus across the exhibition period, the model should learn from a carefully cleared corpus connected to the authors' public writing, vocabulary, and conceptual fields.
+
+The exact duration is not fixed in this file. The institutional material reviewed so far asks for confirmation of the exhibition period and daily operating hours, but does not establish a 100-day duration.
 
 ```txt
 not a generic art-tech model
@@ -120,7 +122,7 @@ It is useful for:
 
 A local training phase is plausible if the project uses available GPUs. The trained model may later be served locally or remotely.
 
-The 100-day installation does not require the full model to run on the printer controller. The physical controller can call a hosted model through an API while keeping local state, source ledger, print ledger, score, fallback rules, and printer control.
+A long-duration installation does not require the full model to run on the printer controller. The physical controller can call a hosted model through an API while keeping local state, source ledger, print ledger, score, fallback rules, and printer control.
 
 ## Rights and authorship boundary
 

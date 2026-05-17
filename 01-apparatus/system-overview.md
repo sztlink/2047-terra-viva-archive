@@ -39,7 +39,7 @@ At this stage, the controller is not assumed to run all AI models locally. The s
 - local-first;
 - fully local only if hardware, budget, stability, and exhibition constraints allow it.
 
-For a 100-day writing and printing apparatus, the controller should be understood as physical runtime infrastructure: it stays with the printer, keeps local ledgers, manages silence and failure, and sends print jobs. The model host may be somewhere else.
+For a full exhibition run, the controller should be understood as physical runtime infrastructure: it stays with the printer, keeps local ledgers, manages silence and failure, and sends print jobs. The model host may be somewhere else. The exact duration is not fixed in this public archive yet.
 
 See `local-controller.md`.
 

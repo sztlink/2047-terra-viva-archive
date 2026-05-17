@@ -35,7 +35,7 @@ model host
   -> local, cloud, or hybrid inference
 ```
 
-A 100-day installation may use a physical controller connected to the printer while sending requests to a hosted fine-tuned model.
+A long-duration exhibition installation may use a physical controller connected to the printer while sending requests to a hosted fine-tuned model. The exact exhibition duration remains to be confirmed from the institutional schedule.
 
 ## Why a physical controller matters
 
@@ -103,9 +103,9 @@ Risks:
 
 The FX-2190 does not require serial for the current path. Some old servers may include serial ports, but the printer does not make that useful unless a specific optional serial interface is installed and validated.
 
-## 100-day posture
+## Long-duration posture
 
-For a 100-day writing and printing apparatus, the controller must be treated as runtime infrastructure:
+For a full exhibition run, the controller must be treated as runtime infrastructure:
 
 - monitored;
 - restartable;

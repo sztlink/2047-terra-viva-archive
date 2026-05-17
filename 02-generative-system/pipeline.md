@@ -65,4 +65,4 @@ The printer performs the text. Cadence is not decoration. It is part of the gene
 
 The system may begin with remote APIs or hybrid infrastructure. A fully local system remains conceptually strong, but it requires separate validation of cost, stability, heat, noise, maintenance, and exhibition constraints.
 
-The physical printer controller and the model host are separate roles. A local controller can run the 100-day apparatus while sending generation requests to a remote or hosted model. This keeps the printer, logs, score, fallback, and paper archive local without requiring the full model to run beside the printer.
+The physical printer controller and the model host are separate roles. A local controller can run the exhibition apparatus while sending generation requests to a remote or hosted model. This keeps the printer, logs, score, fallback, and paper archive local without requiring the full model to run beside the printer.
