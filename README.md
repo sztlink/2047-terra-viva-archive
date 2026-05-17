@@ -45,6 +45,7 @@ It reveals the present being mined.
 00-concept/
   project-brief.md
   conceptual-frame.md
+  peer-field.md
   references.md
 
 01-apparatus/

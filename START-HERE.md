@@ -63,9 +63,10 @@ The project refuses the fantasy that computation is clean or immaterial. AI depe
 
 1. `00-concept/project-brief.md`
 2. `00-concept/conceptual-frame.md`
-3. `01-apparatus/system-overview.md`
-4. `01-apparatus/dot-matrix-printer.md`
-5. `04-archive-policy/public-private-layers.md`
+3. `00-concept/peer-field.md`
+4. `01-apparatus/system-overview.md`
+5. `01-apparatus/dot-matrix-printer.md`
+6. `04-archive-policy/public-private-layers.md`
 
 ### Deep dive
 
