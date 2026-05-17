@@ -25,6 +25,13 @@ Open `index.html` in a browser.
 
 No build step is required.
 
+## Design direction
+
+- `DESIGN-DIRECTION.md`
+- `references/manuals-plus-seeds.md`
+
+The visual direction combines existing co-authorial presentation language, scanned technical manuals from Internet Archive Manuals Plus, operator consoles, and dot-matrix archive logic.
+
 ## Public boundary
 
 All data is fictional or generic. No private conversations, institutional material, internal IPs, credentials, budgets, or supplier details are included.

@@ -137,6 +137,7 @@ Give the repo visual clarity through public, redrawn diagrams.
 
 **Remaining outputs**
 
+- Continue design research from `06-prototypes/command-center/DESIGN-DIRECTION.md`.
 - `05-diagrams/generative-loop.svg`
 - `05-diagrams/sonic-score.svg`
 - `05-diagrams/controller-runtime.svg`
