@@ -56,6 +56,11 @@ It reveals the present being mined.
 02-generative-system/
   pipeline.md
   memory-and-state.md
+  dramaturgical-constraints.md
+  sonic-cadence-and-score.md
+  source-ledger.md
+  print-ledger-schema.md
+  fallback-modes.md
 
 03-field-notes/
   2026-05-initial-development.md

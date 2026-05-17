@@ -151,6 +151,7 @@ Define how the generative system writes without becoming an unconstrained chatbo
 **Outputs**
 
 - `02-generative-system/dramaturgical-constraints.md`
+- `02-generative-system/sonic-cadence-and-score.md`
 - `02-generative-system/source-ledger.md`
 - `02-generative-system/print-ledger-schema.md`
 - `02-generative-system/fallback-modes.md`
@@ -159,6 +160,8 @@ Define how the generative system writes without becoming an unconstrained chatbo
 
 - What must never drift in the fictional world?
 - What is allowed to be generated freely?
+- How does the machine write short stories rather than summaries?
+- How does szt.link calibrate the printer's sonic cadence?
 - Should public news sources be named or abstracted?
 - Should the system cite sources internally, publicly, or not at all?
 - What is the relation between present date and fictional 2047 date?

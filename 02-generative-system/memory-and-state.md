@@ -12,8 +12,11 @@ Possible state layers:
 
 - **Project bible:** stable conceptual rules and vocabulary.
 - **Fictional world state:** names, events, dates, places, institutions, and recurring motifs from 2047.
-- **Source ledger:** public signals that influenced generated fragments.
-- **Print ledger:** what was printed, when, and under which system state.
+- **Source ledger:** public signals that influenced generated stories.
+- **Story ledger:** generated, edited, approved, rejected, and unprinted stories.
+- **Score ledger:** cadence, density, line width, silence, repetition, and print rhythm.
+- **Print ledger:** what was printed, when, under which system state, and with which score.
+- **Silence ledger:** listening, refusal, mourning, printer pause, and no-signal intervals.
 - **Failure ledger:** printer errors, network errors, model failures, interruptions.
 - **Daily digest:** compressed state for the next cycle.
 
@@ -25,8 +28,9 @@ Every printed fragment should ideally be traceable to:
 - source conditions;
 - system version;
 - memory state;
+- score parameters;
 - output destination;
-- whether it was printed successfully.
+- whether it was printed, refused, skipped, or failed.
 
 ## Archive question
 
