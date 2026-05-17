@@ -64,6 +64,7 @@ It reveals the present being mined.
   dramaturgical-constraints.md
   sonic-cadence-and-score.md
   model-voice-and-training.md
+  corpus-policy.md
   source-ledger.md
   print-ledger-schema.md
   fallback-modes.md
