@@ -1,0 +1,6 @@
+PROJETO 2047 / ARQUIVO TERRA VIVA
+EVENTO SEM INSCRICAO NARRATIVA: SILENCE
+PACOTE: pkt_2047_demo_silence_001
+NOTA PUBLICA: O sinal não sustentou uma inscrição. O aparato entrou em silêncio.
+MOTIVO: Source below threshold.
+NENHUM CONTO IMPRESSO.

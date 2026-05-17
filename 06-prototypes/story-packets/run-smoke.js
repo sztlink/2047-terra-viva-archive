@@ -17,5 +17,6 @@ function run(script) {
 run('generate-demo-packets.js');
 run('validate-demo-packets.js');
 run('render-demo-receipts.js');
+run('render-inscription-spool.js');
 
 console.log('Story packet smoke test complete.');

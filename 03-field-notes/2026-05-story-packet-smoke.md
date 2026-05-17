@@ -27,6 +27,7 @@ It covers four packet statuses:
 06-prototypes/story-packets/generate-demo-packets.js
 06-prototypes/story-packets/validate-demo-packets.js
 06-prototypes/story-packets/render-demo-receipts.js
+06-prototypes/story-packets/render-inscription-spool.js
 06-prototypes/story-packets/run-smoke.js
 ```
 
@@ -48,6 +49,17 @@ It covers four packet statuses:
 06-prototypes/story-packets/receipts/silence.receipt.md
 ```
 
+## Generated dry-run spool files
+
+```txt
+06-prototypes/story-packets/spool/story-ready.spool.txt
+06-prototypes/story-packets/spool/refusal.spool.txt
+06-prototypes/story-packets/spool/fault.spool.txt
+06-prototypes/story-packets/spool/silence.spool.txt
+```
+
+These files are inspection artifacts only. They do not send anything to a physical printer.
+
 ## Smoke output
 
 ```txt
@@ -60,6 +72,10 @@ Rendered fault.receipt.md
 Rendered refusal.receipt.md
 Rendered silence.receipt.md
 Rendered story-ready.receipt.md
+Rendered fault.spool.txt
+Rendered refusal.spool.txt
+Rendered silence.spool.txt
+Rendered story-ready.spool.txt
 Story packet smoke test complete.
 ```
 

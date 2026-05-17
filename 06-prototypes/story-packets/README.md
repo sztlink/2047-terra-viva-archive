@@ -27,6 +27,7 @@ This prepares the path for a future controller and for the Mesa de Inscrição t
 generate-demo-packets.js
 validate-demo-packets.js
 render-demo-receipts.js
+render-inscription-spool.js
 run-smoke.js
 output/
   story-ready.demo.json
@@ -38,6 +39,11 @@ receipts/
   refusal.receipt.md
   fault.receipt.md
   silence.receipt.md
+spool/
+  story-ready.spool.txt
+  refusal.spool.txt
+  fault.spool.txt
+  silence.spool.txt
 ```
 
 ## Run
@@ -94,10 +100,17 @@ The validator checks the basic apparatus contract:
 
 It is intentionally lightweight and dependency-free. A stricter JSON Schema validator may be added later.
 
+## Dry-run spool
+
+The smoke test also renders `.spool.txt` files. These are printer-safe inspection artifacts only. They do not send anything to a physical printer.
+
+For `story_ready`, the spool contains the calibration story wrapped to the packet line width.
+
+For `refusal`, `fault`, and `silence`, the spool records a no-print event.
+
 ## Next steps
 
-- Connect Mesa de Inscrição to load one of these packets.
+- Connect Mesa de Inscrição to load one of these packets when interface work resumes.
 - Add an explicit JSON Schema file if needed.
 - Add receipt export to the controller.
-- Add a dry-run terminal inscription renderer.
 - Use evaluation prompts before calling any model.

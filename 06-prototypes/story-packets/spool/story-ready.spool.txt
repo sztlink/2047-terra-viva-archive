@@ -1,0 +1,24 @@
+PROJETO 2047 / ARQUIVO TERRA VIVA
+CONTO DE CALIBRACAO - MATERIAL FICCIONAL SINTETICO
+PACOTE: pkt_2047_demo_story_ready_001
+DATA FICCIONAL: 2047-08-13
+TITULO: O Canal de Resfriamento
+------------------------------------------------------------------------
+
+O canal não tinha nome no arquivo municipal.
+Aparecia apenas como uma linha azul ao lado do data center,
+fina como uma veia, obediente como um cabo.
+
+Toda manhã, as crianças contavam os peixes mortos por número de modelo.
+Alguns tinham escamas prateadas. Outros tinham etiquetas de inventário.
+Um deles carregava um módulo de memória na boca.
+
+A impressora da guarita registrava cada espécime devagar.
+Não como desastre. Não como milagre.
+Como manutenção.
+
+------------------------------------------------------------------------
+SCORE: slow / sparse
+SILENCIO DEPOIS: 90s
+NAO E OBRA FINAL. NAO E PROVA FACTUAL.
+SIMULACAO PUBLICA. NENHUMA IMPRESSORA FISICA CONECTADA.
