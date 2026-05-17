@@ -65,6 +65,7 @@ It reveals the present being mined.
   sonic-cadence-and-score.md
   model-voice-and-training.md
   corpus-policy.md
+  fine-tuning-vs-rag.md
   source-ledger.md
   print-ledger-schema.md
   fallback-modes.md

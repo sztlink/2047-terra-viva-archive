@@ -205,10 +205,10 @@ Define whether and how the project uses a situated model voice rather than a gen
 
 - `02-generative-system/model-voice-and-training.md`
 - `02-generative-system/corpus-policy.md`
+- `02-generative-system/fine-tuning-vs-rag.md`
 
 **Remaining outputs**
 
-- `02-generative-system/fine-tuning-vs-rag.md`
 - `02-generative-system/evaluation-prompts.md`
 - `02-generative-system/rights-and-clearance.md`
 - Optional private corpus inventory, not for this public repo unless fully cleared.
