@@ -1,0 +1,47 @@
+# Manifest
+
+Release: v0.1.0
+Date: 2026-05-17
+Repository: https://github.com/sztlink/2047-terra-viva-archive
+
+This manifest lists the public files included in the v0.1.0 research archive and their SHA-256 checksums. MANIFEST.md is excluded from its own checksum list.
+
+Private conversations, institutional documents, budgets, internal infrastructure details, supplier details, and unpublished third-party materials are intentionally excluded.
+
+```txt
+022a673893f5ec448d1ff82c526f347ca7aaa31b5c28ac6322e36019e03627ca  00-concept/conceptual-frame.md
+e782b040b8e6361d53462bbb134cd608975c2eee93053dd4dce812a0e045c62b  00-concept/peer-field.md
+f1801302a162120fb1a806cb1c6e9caf10a5eacd89531ac828227d8c33b442cd  00-concept/project-brief.md
+b25c8092ba8090ae8c75cfdbe2102d1b835652ca3d164c696fe473a005b0f5ce  00-concept/references.md
+e64a0eccc396744b33ead771aba800800d9694e6c28e6de3eb54744356106ef4  01-apparatus/dot-matrix-printer.md
+a4c9430ad0d845324d7b279bd71d11b4b13286c05bcd81660b2af105c99fa2e1  01-apparatus/hardware-ewaste-scenography.md
+913b87af81ac9ae57cd89ecf0dcc1ebe4fab0a89fa29380ca833e1e1913d0b46  01-apparatus/printer-research/continuous-paper.md
+2b288d4689b8abea94425ddfe77a724b3c960eac65fcea74bf99a02c327aa668  01-apparatus/printer-research/cups-escp-pipeline.md
+e9a80be19fa96d914aaab19b5203f0c78cee27c1391a19071b59d4c1166bab9a  01-apparatus/printer-research/dot-matrix-as-archive-apparatus.md
+46337a6361662be99fb5fb35b11a76dc9c296f2a17a9e2a52b6e55785c2d21f4  01-apparatus/printer-research/encoding-and-typography.md
+4c77aadd4536a07cf0ad4a8954d4849148fdf228866b4ac4381811e5130daf38  01-apparatus/printer-research/failure-modes.md
+24ccb2a32fdaa56e2fc76e5d61b3e1d52ec767259ff5c627a7b1d31884703d6e  01-apparatus/printer-research/fx-2190-calibration-notes.md
+a86ba91749be2dc47fb3e9f8dadb957a34dcd17d6a35d24979953e5252dcbab9  01-apparatus/printer-research/README.md
+f9fa9d5881f72169ba4fcc17129884a2e1cb511021879e08c4b6b0e204716c2e  01-apparatus/system-overview.md
+6e9dae877fb9b377019a99bf404827b101751511068335200934a977535769cd  02-generative-system/memory-and-state.md
+abd3253ff17c495cc14cf71e0dcce05deb5d4c47687ac128732b6a75d3f46931  02-generative-system/pipeline.md
+915dea20734c148f569d776f1193e4382602fd88796c06884133b528d1ff2830  03-field-notes/2026-05-initial-development.md
+40008dfb5a8e8f467440f4acad1e63bae3b94113552173ae6e0187955e861b5a  04-archive-policy/public-private-layers.md
+5e656f21f1a2b05052cb32368a2797328d5afa48cebee3a7ac17a6243d2fe275  04-archive-policy/redaction-policy.md
+77aaee4a344d0032a54ac80302ff51c21e8f3d8f1579c7bd88281578eae7fb49  05-diagrams/apparatus-flow.svg
+7366e0bfe0a217fc8356ca2d528dcf67028d5c4755b747c09c9068bb03174036  05-diagrams/archive-layers.svg
+d93befc342d9a0b0e92f50ac161eee19ac30b48e8f742fa6ab44febe04ab9da9  05-diagrams/material-stack.svg
+d4bd4c1fdc6e2296cd4ae20a49c41ffff890431efdbd6975cc936963aa4e333b  05-diagrams/README.md
+c16275e044f205b29c98f1d69940095088303ecf72ca1a9d1a0a4c69678e9ac1  assets/concept-visuals/2047-generated-image-concept.jpg
+b2b1621785f0d53939f06638653ba895db6cf2c8bf4f89cac906ddba40598cd2  assets/concept-visuals/2047-paper-archive-concept.jpg
+de0f7ec795034d5d9aa7ac999dbb4c6fd7909770270104c40788bf30843ae747  assets/concept-visuals/2047-printer-apparatus-concept.jpg
+0dfe2121accaefd01d94597e26de20c1b5bef355f91ab303216d1d191926c2a6  assets/concept-visuals/README.md
+8429d25828acaa96a8df90e3f22cd74202918ccb9b51b191df5a56d195841305  CHANGELOG.md
+b2aaa0932d20627cc223f3f4d6d0e253f11c272678bbb7b1ffaab16586ec04ac  CITATION.cff
+3d615217e6db4a4facfa6e2722e37df23b1772bffa7de0320f19b9f29fe45161  EPICS.md
+be94cc052648f5723f145fa7c9e3a9fa2f2c7667c2e0b92797abd10e7e5e7f95  .gitignore
+2330b9ef5de2ff1c531005227a8f1c6f69547498dffca9ef05fc9f8da4a0f426  LICENSE.md
+279bddd670ac9963b628001e041ba89b0686edb7d64ce4ec43f3dfd84bf5f37f  NOTICE.md
+b147e74a7edbb71d2d774ff809255d2c208fd8b9ec2f817d71946b256153ca69  README.md
+b8ad4dfac5bdd7c39c9e9c4e84fbc213f3ff0abe36f335282cf21cbc4bbb859f  START-HERE.md
+```

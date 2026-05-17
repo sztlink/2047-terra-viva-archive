@@ -6,9 +6,9 @@ They are not documentation of the final artwork, not installation renders, not i
 
 ## Files
 
-- `2047-printer-apparatus-concept.jpg` — concept image for the machine / printer apparatus.
-- `2047-paper-archive-concept.jpg` — concept image for continuous paper and archive accumulation.
-- `2047-generated-image-concept.jpg` — concept image for the visual generation layer.
+- `2047-printer-apparatus-concept.jpg` - concept image for the machine / printer apparatus.
+- `2047-paper-archive-concept.jpg` - concept image for continuous paper and archive accumulation.
+- `2047-generated-image-concept.jpg` - concept image for the visual generation layer.
 
 ## Usage
 

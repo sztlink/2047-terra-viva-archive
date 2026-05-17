@@ -45,6 +45,8 @@ This repository does not document the private co-authorial process. It only maps
 
 ### Hans Haacke - *News* (1969 / 2008)
 
+**Reference:** [SFMOMA collection record](https://www.sfmoma.org/artwork/2008.232/)
+
 **Relation:** live information feed, printer, paper accumulation, institutional time.
 
 **Difference:** *News* foregrounds information flow, media systems, and institutional critique. Projeto 2047 shifts the apparatus toward extractive computation, AI, e-waste, rare earths, and a future archive.
@@ -54,6 +56,8 @@ This repository does not document the private co-authorial process. It only maps
 *News* is a close apparatus-relative, not a total conceptual ancestor.
 
 ### Mark Hansen and Ben Rubin - *Listening Post* (2002)
+
+**Reference:** [Ben Rubin / EAR project page](https://www.earstudio.com/projects/project-page/listening-post)
 
 **Relation:** live textual signals, networked speech, public display, data as chorus.
 
@@ -105,6 +109,8 @@ This repository does not document the private co-authorial process. It only maps
 
 ### Walid Raad / The Atlas Group
 
+**Reference:** [The Atlas Group archive](https://www.theatlasgroup1989.org/)
+
 **Relation:** archive as fiction, counter-history, institutional memory, constructed evidence.
 
 **Difference:** The Atlas Group stages fictional archives around historical trauma and political memory. Projeto 2047 uses speculative future archive to expose a present already being mined.
@@ -113,6 +119,8 @@ This repository does not document the private co-authorial process. It only maps
 
 ### Susan Schuppli
 
+**Reference:** [*Material Witness* project page](https://susanschuppli.com/MATERIAL-WITNESS) and [MIT Press book page](https://mitpress.mit.edu/9780262043571/material-witness/)
+
 **Relation:** material evidence, toxic media, environmental testimony, forensic matter.
 
 **Difference:** Schuppli's work examines how materials bear witness. Projeto 2047 asks how paper, printer, e-waste, and AI traces can become a speculative witness-machine.
@@ -120,6 +128,8 @@ This repository does not document the private co-authorial process. It only maps
 **Why it matters here:** matter can testify.
 
 ### Mimi Onuoha
+
+**Reference:** [*The Library of Missing Datasets*](https://mimi-onuoha-9s0o.squarespace.com/the-library-of-missing-datasets) and [Missing Datasets repository](https://github.com/MimiOnuoha/missing-datasets)
 
 **Relation:** missing datasets, absence, classification, data politics.
 
@@ -130,6 +140,8 @@ This repository does not document the private co-authorial process. It only maps
 ## Media archaeology, obsolete media, and digital ruins
 
 ### Jussi Parikka
+
+**Reference:** [*A Geology of Media*, University of Minnesota Press](https://www.upress.umn.edu/9780816695522/a-geology-of-media/)
 
 **Relation:** media geology, minerals, waste, ecology of media, deep material infrastructures.
 
@@ -173,6 +185,8 @@ This repository does not document the private co-authorial process. It only maps
 
 ### Kate Crawford and Vladan Joler - *Anatomy of an AI System* (2018)
 
+**Reference:** [Official project site](https://anatomyof.ai/)
+
 **Relation:** AI supply chains, labor, minerals, logistics, planetary extraction.
 
 **Difference:** *Anatomy of an AI System* diagrams the hidden material infrastructures behind a consumer AI device. Projeto 2047 turns extractive computation into a speculative archive apparatus.
@@ -181,6 +195,8 @@ This repository does not document the private co-authorial process. It only maps
 
 ### Joana Moll
 
+**Reference:** [*CO2GLE* (2014)](https://www.janavirgin.com/co2gle.html)
+
 **Relation:** materiality of networks, energy, surveillance, platform infrastructures.
 
 **Difference:** Moll often exposes the energy and political costs of digital systems. Projeto 2047 stages a machine that writes from within those costs.
@@ -188,6 +204,8 @@ This repository does not document the private co-authorial process. It only maps
 **Why it matters here:** computation has a footprint before it has an image.
 
 ### Unknown Fields
+
+**Reference:** [Unknown Fields Division](https://unknownfieldsdivision.com/) and [*Rare Earthenware*, V&A collection](https://collections.vam.ac.uk/item/O1326004/rare-earthenware-vessel-unknown-fields-division/)
 
 **Relation:** supply chains, rare earths, material geographies, speculative fieldwork.
 
@@ -204,6 +222,8 @@ This repository does not document the private co-authorial process. It only maps
 **Why it matters here:** environmental futures are mediated through territory, technology, and image regimes.
 
 ### World of Matter
+
+**Reference:** [World of Matter project site](http://worldofmatter.net/about-project)
 
 **Relation:** resources, extraction, infrastructure, political ecology, visual research.
 
@@ -222,6 +242,8 @@ This repository does not document the private co-authorial process. It only maps
 **Why it matters here:** the system should not present AI as clean solution. It is both instrument and symptom.
 
 ### Trevor Paglen
+
+**Reference:** [*ImageNet Roulette* project note](https://paglen.studio/2020/04/29/imagenet-roulette/)
 
 **Relation:** machine vision, datasets, surveillance, invisible infrastructures of seeing.
 
@@ -301,7 +323,7 @@ The printer in Projeto 2047 inherits this bureaucratic memory and redirects it t
 
 ## Notes for future research
 
-These references should be verified and expanded with official links, dates, and source citations before a citable release.
+The first release includes a small set of official links for core references. Future versions should continue to verify dates, titles, and sources before expanding the field.
 
 Future additions may include:
 

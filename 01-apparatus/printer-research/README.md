@@ -28,12 +28,12 @@ Internal tests before this repository produced four useful public conclusions:
 
 ## Documents
 
-- `dot-matrix-as-archive-apparatus.md` — conceptual and material role of the printer.
-- `fx-2190-calibration-notes.md` — recovered technical findings from previous tests.
-- `cups-escp-pipeline.md` — public summary of the CUPS / ESC-P pipeline.
-- `continuous-paper.md` — paper as archive, not leftover material.
-- `encoding-and-typography.md` — accents, ASCII, code pages, typography.
-- `failure-modes.md` — failures that matter technically and artistically.
+- `dot-matrix-as-archive-apparatus.md` - conceptual and material role of the printer.
+- `fx-2190-calibration-notes.md` - recovered technical findings from previous tests.
+- `cups-escp-pipeline.md` - public summary of the CUPS / ESC-P pipeline.
+- `continuous-paper.md` - paper as archive, not leftover material.
+- `encoding-and-typography.md` - accents, ASCII, code pages, typography.
+- `failure-modes.md` - failures that matter technically and artistically.
 
 ## Public boundary
 

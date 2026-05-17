@@ -12,7 +12,7 @@ The repo should make clear that Projeto 2047 / Arquivo Terra Viva is not "AI art
 
 ---
 
-## Epic 0 — Orientation and canon
+## Epic 0 - Orientation and canon
 
 **Goal**  
 Create a fast entry point for visitors, curators, researchers, and future collaborators.
@@ -37,7 +37,7 @@ A new reader can understand what the repo is, what it is not, and where to start
 
 ---
 
-## Epic 1 — Dot-matrix printer as archive apparatus
+## Epic 1 - Dot-matrix printer as archive apparatus
 
 **Goal**  
 Document the printer as the material heart of the work, not as nostalgic scenography.
@@ -65,7 +65,7 @@ The printer reads as a conceptual and technical apparatus with enough specificit
 
 ---
 
-## Epic 2 — Peer field and related practices
+## Epic 2 - Peer field and related practices
 
 **Goal**  
 Position the project near relevant artistic, technical, and theoretical fields without reducing it to influence lists.
@@ -93,7 +93,7 @@ A reader can locate the project among media art, AI criticism, archive studies, 
 
 ---
 
-## Epic 3 — Diagrams and visual grammar
+## Epic 3 - Diagrams and visual grammar
 
 **Goal**  
 Give the repo visual clarity through public, redrawn diagrams.
@@ -118,7 +118,7 @@ The repo has at least one diagram that can travel into a presentation, article, 
 
 ---
 
-## Epic 4 — Prototype receipts
+## Epic 4 - Prototype receipts
 
 **Goal**  
 Document real tests as receipts: small, factual, reproducible fragments of the apparatus becoming material.
@@ -143,7 +143,7 @@ The repository contains at least one real apparatus receipt: command, setup, out
 
 ---
 
-## Epic 5 — Generative dramaturgy and memory
+## Epic 5 - Generative dramaturgy and memory
 
 **Goal**  
 Define how the generative system writes without becoming an unconstrained chatbot.
@@ -169,7 +169,7 @@ The generative layer has constraints, memory, and traceability before any large 
 
 ---
 
-## Epic 6 — Hardware and e-waste body
+## Epic 6 - Hardware and e-waste body
 
 **Goal**  
 Specify the material body of the installation without turning e-waste into generic cyberpunk decoration.
@@ -194,7 +194,7 @@ The hardware body is described as material argument, not decoration.
 
 ---
 
-## Epic 7 — Citation, release, and preservation layer
+## Epic 7 - Citation, release, and preservation layer
 
 **Goal**  
 Make the repo citable as a stable public research artifact.
@@ -221,14 +221,14 @@ The archive has a stable version that can be referenced in academic, curatorial,
 
 ## Suggested working order
 
-1. Epic 0 — Orientation and canon
-2. Epic 1 — Dot-matrix printer as archive apparatus
-3. Epic 3 — First diagram
-4. Epic 2 — Peer field
-5. Epic 4 — First prototype receipt
-6. Epic 5 — Generative dramaturgy and memory
-7. Epic 6 — Hardware and e-waste body
-8. Epic 7 — Citation and release
+1. Epic 0 - Orientation and canon
+2. Epic 1 - Dot-matrix printer as archive apparatus
+3. Epic 3 - First diagram
+4. Epic 2 - Peer field
+5. Epic 4 - First prototype receipt
+6. Epic 5 - Generative dramaturgy and memory
+7. Epic 6 - Hardware and e-waste body
+8. Epic 7 - Citation and release
 
 ## Rule for all epics
 
