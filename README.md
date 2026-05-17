@@ -73,6 +73,9 @@ It reveals the present being mined.
 
 05-diagrams/
   README.md
+
+06-prototypes/
+  command-center/
 ```
 
 ## Authorship and scope

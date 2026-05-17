@@ -77,8 +77,9 @@ The project refuses the fantasy that computation is clean or immaterial. AI depe
 5. `02-generative-system/memory-and-state.md`
 6. `01-apparatus/local-controller.md`
 7. `01-apparatus/hardware-ewaste-scenography.md`
-8. `03-field-notes/2026-05-initial-development.md`
-9. Future prototype receipts and diagrams.
+8. `06-prototypes/command-center/README.md`
+9. `03-field-notes/2026-05-initial-development.md`
+10. Future prototype receipts and diagrams.
 
 ## Current roadmap
 

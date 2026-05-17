@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto 2047 - Command Center Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Projeto 2047 / Arquivo Terra Viva</p>
+        <h1>Command Center Prototype</h1>
+      </div>
+      <div class="statusBlock">
+        <span class="dot" id="systemDot"></span>
+        <span id="systemStatus">idle</span>
+      </div>
+    </header>
+
+    <section class="thesis">
+      <p>The machine does not produce the future. It reveals the present being mined.</p>
+      <button id="runBtn">Run smoke cycle</button>
+    </section>
+
+    <section class="grid">
+      <article class="panel source">
+        <div class="panelHead">
+          <span>01</span>
+          <h2>Source signal</h2>
+        </div>
+        <div class="signalCard">
+          <p class="label">public signal cluster</p>
+          <h3>rare earth extraction, data centers, water, e-waste</h3>
+          <p>Fictional test input for a public smoke cycle. No real news source is used here.</p>
+        </div>
+        <ul class="tags">
+          <li>extraction</li>
+          <li>infrastructure</li>
+          <li>archive</li>
+          <li>water</li>
+        </ul>
+      </article>
+
+      <article class="panel story">
+        <div class="panelHead">
+          <span>02</span>
+          <h2>Short story engine</h2>
+        </div>
+        <pre id="storyOut" class="storyOut">waiting for source...</pre>
+      </article>
+
+      <article class="panel score">
+        <div class="panelHead">
+          <span>03</span>
+          <h2>Sonic score</h2>
+        </div>
+        <div class="scoreRows">
+          <div><span>tempo</span><strong id="tempo">-</strong></div>
+          <div><span>density</span><strong id="density">-</strong></div>
+          <div><span>line width</span><strong id="lineWidth">-</strong></div>
+          <div><span>silence after</span><strong id="silenceAfter">-</strong></div>
+        </div>
+        <div class="meter">
+          <div id="meterFill"></div>
+        </div>
+        <p class="note">szt.link calibrates cadence before paper.</p>
+      </article>
+
+      <article class="panel printer">
+        <div class="panelHead">
+          <span>04</span>
+          <h2>Printer simulation</h2>
+        </div>
+        <div class="printerBody">
+          <div class="paper" id="paper"></div>
+        </div>
+        <p class="printerCaption">terminal simulation only, no physical printer connected</p>
+      </article>
+
+      <article class="panel ledger">
+        <div class="panelHead">
+          <span>05</span>
+          <h2>Ledger record</h2>
+        </div>
+        <pre id="ledgerOut" class="ledgerOut">{ "status": "idle" }</pre>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
