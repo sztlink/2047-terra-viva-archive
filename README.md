@@ -56,6 +56,8 @@ It reveals the present being mined.
   system-overview.md
   dot-matrix-printer.md
   local-controller.md
+  runtime-requirements.md
+  printer-connection.md
   hardware-ewaste-scenography.md
 
 02-generative-system/
@@ -63,6 +65,7 @@ It reveals the present being mined.
   memory-and-state.md
   dramaturgical-constraints.md
   sonic-cadence-and-score.md
+  score-vocabulary.md
   model-voice-and-training.md
   corpus-policy.md
   fine-tuning-vs-rag.md

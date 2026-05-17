@@ -173,10 +173,11 @@ Define how the machine writes short stories without becoming an unconstrained ch
 - `02-generative-system/print-ledger-schema.md`
 - `02-generative-system/fallback-modes.md`
 - `02-generative-system/story-packet-schema.md`
+- `02-generative-system/score-vocabulary.md`
 
 **Remaining outputs**
 
-- `02-generative-system/score-vocabulary.md`
+- Public receipts from future physical tests
 - `02-generative-system/refusal-policy.md`
 - `03-field-notes/YYYY-MM-generative-loop-smoke.md`
 
@@ -240,13 +241,13 @@ The duration is **not confirmed** in the public archive. Do not assume 100 days 
 **Current outputs**
 
 - `01-apparatus/local-controller.md`
+- `01-apparatus/runtime-requirements.md`
+- `01-apparatus/printer-connection.md`
 - controller notes inside `01-apparatus/system-overview.md`
 
 **Remaining outputs**
 
-- `01-apparatus/runtime-requirements.md`
 - `01-apparatus/controller-recovery.md`
-- `01-apparatus/printer-connection.md`
 - `01-apparatus/process-supervision.md`
 - `01-apparatus/local-logs.md`
 
