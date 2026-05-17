@@ -172,10 +172,10 @@ Define how the machine writes short stories without becoming an unconstrained ch
 - `02-generative-system/source-ledger.md`
 - `02-generative-system/print-ledger-schema.md`
 - `02-generative-system/fallback-modes.md`
+- `02-generative-system/story-packet-schema.md`
 
 **Remaining outputs**
 
-- `02-generative-system/story-packet-schema.md`
 - `02-generative-system/score-vocabulary.md`
 - `02-generative-system/refusal-policy.md`
 - `03-field-notes/YYYY-MM-generative-loop-smoke.md`
