@@ -30,6 +30,7 @@ No build step is required.
 - `DESIGN-DIRECTION.md`
 - `references/manuals-plus-seeds.md`
 - `references/manuals-plus-reference-map.md`
+- `references/selected-reference-set.md`
 
 The visual direction combines existing co-authorial presentation language, scanned technical manuals from Internet Archive Manuals Plus, operator consoles, and dot-matrix archive logic.
 
