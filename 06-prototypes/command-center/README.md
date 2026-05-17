@@ -19,6 +19,12 @@ source signal
 - Represent silence, refusal, failure, and printing as interface states.
 - Give the project a command center without exposing private infrastructure.
 
+## View online
+
+GitHub Pages:
+
+- <https://sztlink.github.io/2047-terra-viva-archive/06-prototypes/command-center/>
+
 ## Run locally
 
 Open `index.html` in a browser.

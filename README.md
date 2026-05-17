@@ -14,6 +14,10 @@ Not an official institutional repository.
 Not an exhibition announcement.  
 Not a production dossier.
 
+Live command center prototype:
+
+- <https://sztlink.github.io/2047-terra-viva-archive/06-prototypes/command-center/>
+
 Materials here are partial, redacted, and versioned as field notes. They are meant to preserve process without exposing private conversations, institutional negotiations, budgets, or closed documents.
 
 ## Short thesis
