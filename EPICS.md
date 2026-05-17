@@ -301,12 +301,17 @@ The hardware body is described as material argument, not decoration.
 
 ## Epic 8 - Prototype receipts
 
-**Status:** not yet started in public repo.
+**Status:** started.
 
 **Goal**  
 Document tests as receipts: small, factual, reproducible fragments of the apparatus becoming material.
 
-**Outputs**
+**Current outputs**
+
+- `03-field-notes/2026-05-command-center-smoke.md`
+- `assets/prototype-screenshots/command-center-v2-2026-05-17.png`
+
+**Remaining outputs**
 
 - `03-field-notes/YYYY-MM-generative-loop-smoke.md`
 - `03-field-notes/YYYY-MM-terminal-print-simulation.md`
