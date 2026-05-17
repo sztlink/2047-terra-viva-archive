@@ -24,45 +24,44 @@ const els = {
   paper: document.querySelector('#paper'),
   ledgerTrace: document.querySelector('#ledgerTrace'),
   ledgerOut: document.querySelector('#ledgerOut'),
-  troubleRows: document.querySelector('#troubleRows'),
   maintenanceNote: document.querySelector('#maintenanceNote'),
   receiptOut: document.querySelector('#receiptOut'),
   signalPath: document.querySelector('#signalPath')
 };
 
 const packet = {
-  source: {
-    source_id: 'src_demo_2047_0002',
-    source_type: 'fictional_public_signal_cluster',
-    keywords: ['rare earths', 'data centers', 'water', 'e-waste'],
-    threshold: 'accepted for fiction only',
-    clearance: 'public-safe synthetic input'
+  fonte: {
+    id_fonte: 'fonte_demo_2047_0003',
+    tipo: 'cluster_publico_ficcional',
+    palavras_chave: ['terras raras', 'data centers', 'água', 'lixo eletrônico'],
+    limiar: 'aceito apenas como ficção de teste',
+    liberacao: 'entrada sintética segura para demonstração pública'
   },
-  story: {
-    story_id: 'story_demo_2047_0002',
-    title: 'The Cooling Canal',
-    fictional_date: '2047-08-13',
-    body: [
-      'The canal had no name in the municipal archive.',
-      'It appeared only as a blue line beside the data center,',
-      'thin as a vein, obedient as a cable.',
+  conto: {
+    id_conto: 'conto_demo_2047_0003',
+    titulo: 'O Canal de Resfriamento',
+    data_ficcional: '13/08/2047',
+    corpo: [
+      'O canal não tinha nome no arquivo municipal.',
+      'Aparecia apenas como uma linha azul ao lado do data center,',
+      'fina como uma veia, obediente como um cabo.',
       '',
-      'Every morning, children counted the dead fish by model number.',
-      'Some had silver scales. Some had inventory tags.',
-      'One carried a memory module in its mouth.',
+      'Toda manhã, as crianças contavam os peixes mortos por número de modelo.',
+      'Alguns tinham escamas prateadas. Outros tinham etiquetas de inventário.',
+      'Um deles carregava um módulo de memória na boca.',
       '',
-      'The printer in the guardhouse recorded each specimen slowly.',
-      'Not as disaster. Not as miracle.',
-      'As maintenance.'
+      'A impressora da guarita registrava cada espécime devagar.',
+      'Não como desastre. Não como milagre.',
+      'Como manutenção.'
     ]
   },
-  score: {
-    score_id: 'score_demo_2047_0002',
-    pulse: 'slow mechanical strike',
-    density: 'sparse',
-    line_width: 72,
-    silence_before_seconds: 3,
-    silence_after_seconds: 90
+  partitura: {
+    id_partitura: 'partitura_demo_2047_0003',
+    pulso: 'batida mecânica lenta',
+    densidade: 'esparsa',
+    largura_linha: 72,
+    silencio_antes_segundos: 3,
+    silencio_depois_segundos: 90
   }
 };
 
@@ -114,39 +113,39 @@ function logEvent(label, detail) {
 
 function renderLedger(status) {
   const ledger = {
-    print_id: status === 'simulated_print_complete' ? 'prt_demo_2047_0002' : null,
-    story_id: packet.story.story_id,
-    source_refs: [packet.source.source_id],
-    score_id: packet.score.score_id,
-    apparatus_version: 'apparatus-console-prototype-v0.2',
-    status,
-    public_receipt: true,
-    note: 'No physical printer connected. Public-safe terminal-style simulation only.'
+    id_impressao: status === 'impressao_simulada_concluida' ? 'imp_demo_2047_0003' : null,
+    id_conto: packet.conto.id_conto,
+    fontes: [packet.fonte.id_fonte],
+    id_partitura: packet.partitura.id_partitura,
+    versao_aparato: 'console-do-aparato-prototipo-v0.3',
+    estado: status,
+    comprovante_publico: true,
+    nota: 'Nenhuma impressora física conectada. Simulação pública e segura.'
   };
 
   els.ledgerOut.textContent = JSON.stringify(ledger, null, 2);
 }
 
 function renderScore() {
-  els.scorePulse.textContent = packet.score.pulse;
-  els.scoreDensity.textContent = packet.score.density;
-  els.scoreWidth.textContent = `${packet.score.line_width} chars`;
-  els.scoreSilenceBefore.textContent = `${packet.score.silence_before_seconds}s`;
-  els.scoreSilenceAfter.textContent = `${packet.score.silence_after_seconds}s`;
+  els.scorePulse.textContent = packet.partitura.pulso;
+  els.scoreDensity.textContent = packet.partitura.densidade;
+  els.scoreWidth.textContent = `${packet.partitura.largura_linha} caracteres`;
+  els.scoreSilenceBefore.textContent = `${packet.partitura.silencio_antes_segundos}s`;
+  els.scoreSilenceAfter.textContent = `${packet.partitura.silencio_depois_segundos}s`;
   els.pulseNeedle.style.left = '36%';
 }
 
 function renderReceipt(status) {
   els.receiptOut.textContent = [
-    '2047 APPARATUS RECEIPT',
-    `STATUS: ${status}`,
-    `SOURCE: ${packet.source.source_id}`,
-    `STORY: ${packet.story.story_id}`,
-    `SCORE: ${packet.score.score_id}`,
-    `FICTIONAL DATE: ${packet.story.fictional_date}`,
-    'MODE: TERMINAL PRINT SIMULATION',
-    'CLEARANCE: PUBLIC-SAFE SYNTHETIC INPUT',
-    'NOTE: NO PHYSICAL PRINTER CONNECTED'
+    'COMPROVANTE DO APARATO 2047',
+    `ESTADO: ${status}`,
+    `FONTE: ${packet.fonte.id_fonte}`,
+    `CONTO: ${packet.conto.id_conto}`,
+    `PARTITURA: ${packet.partitura.id_partitura}`,
+    `DATA FICCIONAL: ${packet.conto.data_ficcional}`,
+    'MODO: SIMULAÇÃO DE IMPRESSÃO',
+    'LIBERAÇÃO: ENTRADA SINTÉTICA PÚBLICA',
+    'NOTA: NENHUMA IMPRESSORA FÍSICA CONECTADA'
   ].join('\n');
 }
 
@@ -154,29 +153,29 @@ function resetConsole() {
   setState('IDLE');
   setButtons(false);
   eventCount = 0;
-  els.thresholdCell.textContent = 'awaiting run';
-  els.chSource.textContent = 'standby';
-  els.chVoice.textContent = 'standby';
-  els.chConstraint.textContent = 'standby';
-  els.chPaper.textContent = 'standby';
+  els.thresholdCell.textContent = 'aguardando ciclo';
+  els.chSource.textContent = 'em espera';
+  els.chVoice.textContent = 'em espera';
+  els.chConstraint.textContent = 'em espera';
+  els.chPaper.textContent = 'em espera';
   els.channels.forEach(el => el.classList.remove('active'));
-  els.storyOut.textContent = 'operator note:\nload source packet to begin writing cycle.';
+  els.storyOut.textContent = 'nota de operação:\ncarregue um pacote de fonte para iniciar o ciclo de escrita.';
   els.scorePulse.textContent = '-';
   els.scoreDensity.textContent = '-';
   els.scoreWidth.textContent = '-';
   els.scoreSilenceBefore.textContent = '-';
   els.scoreSilenceAfter.textContent = '-';
   els.pulseNeedle.style.left = '0%';
-  els.printerOnline.textContent = 'NO';
-  els.paperFeed.textContent = 'READY';
+  els.printerOnline.textContent = 'NÃO';
+  els.paperFeed.textContent = 'PRONTO';
   els.lineCount.textContent = '0';
-  els.faultState.textContent = 'NONE';
+  els.faultState.textContent = 'NENHUMA';
   els.paper.textContent = '';
   els.ledgerTrace.textContent = '';
-  els.maintenanceNote.textContent = 'No intervention required.';
+  els.maintenanceNote.textContent = 'Nenhuma intervenção necessária.';
   els.signalPath.setAttribute('d', tracePaths.idle);
-  renderLedger('idle');
-  els.receiptOut.textContent = '2047 APPARATUS RECEIPT\nSTATUS: WAITING\nPUBLIC DATA ONLY';
+  renderLedger('repouso');
+  els.receiptOut.textContent = 'COMPROVANTE DO APARATO 2047\nESTADO: AGUARDANDO\nAPENAS DADOS PÚBLICOS';
 }
 
 async function runCycle() {
@@ -187,41 +186,41 @@ async function runCycle() {
 
   setState('LISTENING');
   els.signalPath.setAttribute('d', tracePaths.active);
-  logEvent('LISTENING', 'source trace opened');
+  logEvent('ESCUTA', 'traço de fonte aberto');
   await sleep(700);
 
   setState('INGESTING');
-  setChannel('source', 'accepted');
-  els.thresholdCell.textContent = packet.source.threshold;
-  logEvent('INGESTING', 'synthetic packet accepted');
-  renderLedger('source_ingested');
+  setChannel('source', 'aceita');
+  els.thresholdCell.textContent = packet.fonte.limiar;
+  logEvent('ENTRADA', 'pacote sintético aceito');
+  renderLedger('fonte_digerida');
   await sleep(800);
 
   setState('WRITING');
-  setChannel('voice', 'situated fiction, public demo');
-  setChannel('constraint', 'short story, no private source');
-  els.storyOut.textContent = `${packet.story.title}\n${packet.story.fictional_date}\n\nwriting...`;
-  logEvent('WRITING', 'story channels synchronized');
+  setChannel('voice', 'ficção situada, demonstração pública');
+  setChannel('constraint', 'conto curto, sem fonte privada');
+  els.storyOut.textContent = `${packet.conto.titulo}\n${packet.conto.data_ficcional}\n\nescrevendo...`;
+  logEvent('ESCRITA', 'canais do conto sincronizados');
   await sleep(900);
 
-  els.storyOut.textContent = `${packet.story.title}\n${packet.story.fictional_date}\n\n${packet.story.body.join('\n')}`;
+  els.storyOut.textContent = `${packet.conto.titulo}\n${packet.conto.data_ficcional}\n\n${packet.conto.corpo.join('\n')}`;
   await sleep(700);
 
   setState('SCORING');
-  setChannel('paper', '72 character line width');
+  setChannel('paper', '72 caracteres por linha');
   renderScore();
-  logEvent('SCORING', 'cadence calibrated');
-  renderLedger('score_ready');
+  logEvent('PARTITURA', 'cadência calibrada');
+  renderLedger('partitura_pronta');
   await sleep(900);
 
   setState('PRINTING');
-  els.printerOnline.textContent = 'YES';
-  els.paperFeed.textContent = 'ADVANCING';
-  els.faultState.textContent = 'NONE';
+  els.printerOnline.textContent = 'SIM';
+  els.paperFeed.textContent = 'AVANÇANDO';
+  els.faultState.textContent = 'NENHUMA';
   els.paper.textContent = '';
-  logEvent('PRINTING', 'terminal print simulation started');
-  for (let i = 0; i < packet.story.body.length; i++) {
-    const line = packet.story.body[i];
+  logEvent('INSCRIÇÃO', 'simulação de impressão iniciada');
+  for (let i = 0; i < packet.conto.corpo.length; i++) {
+    const line = packet.conto.corpo[i];
     const span = document.createElement('span');
     span.className = 'line';
     span.textContent = line || ' ';
@@ -231,15 +230,15 @@ async function runCycle() {
   }
 
   setState('SILENCE');
-  els.paperFeed.textContent = 'HOLDING';
-  logEvent('SILENCE', '90 second silence represented as receipt field');
+  els.paperFeed.textContent = 'SUSPENSO';
+  logEvent('SILÊNCIO', '90 segundos representados no comprovante');
   await sleep(900);
 
   setState('ARCHIVED');
-  els.paperFeed.textContent = 'READY';
-  renderLedger('simulated_print_complete');
-  renderReceipt('SIMULATED PRINT COMPLETE');
-  logEvent('ARCHIVED', 'public receipt generated');
+  els.paperFeed.textContent = 'PRONTO';
+  renderLedger('impressao_simulada_concluida');
+  renderReceipt('IMPRESSÃO SIMULADA CONCLUÍDA');
+  logEvent('ARQUIVO', 'comprovante público gerado');
   setButtons(false);
 }
 
@@ -248,13 +247,13 @@ function triggerRefusal() {
   resetConsole();
   setState('REFUSAL');
   els.signalPath.setAttribute('d', tracePaths.refusal);
-  els.thresholdCell.textContent = 'rejected';
-  els.faultState.textContent = 'REFUSAL';
-  els.maintenanceNote.textContent = 'Refusal triggered: packet is treated as private, unclear, or ethically unsuitable for public print.';
-  els.storyOut.textContent = 'REFUSAL NOTICE\n\nNo story was generated.\nThe apparatus entered silence instead of producing ornamental certainty.';
-  logEvent('REFUSAL', 'print refused before writing');
-  renderLedger('refused');
-  renderReceipt('REFUSED BEFORE PRINT');
+  els.thresholdCell.textContent = 'recusado';
+  els.faultState.textContent = 'RECUSA';
+  els.maintenanceNote.textContent = 'Recusa acionada: o pacote é tratado como privado, incerto ou inadequado para impressão pública.';
+  els.storyOut.textContent = 'NOTA DE RECUSA\n\nNenhum conto foi gerado.\nO aparato entrou em silêncio em vez de produzir certeza ornamental.';
+  logEvent('RECUSA', 'impressão recusada antes da escrita');
+  renderLedger('recusado');
+  renderReceipt('RECUSADO ANTES DA IMPRESSÃO');
 }
 
 function triggerFault() {
@@ -262,14 +261,14 @@ function triggerFault() {
   resetConsole();
   setState('FAULT');
   els.signalPath.setAttribute('d', tracePaths.fault);
-  els.printerOnline.textContent = 'NO';
-  els.paperFeed.textContent = 'JAM';
-  els.faultState.textContent = 'PAPER PATH';
-  els.maintenanceNote.textContent = 'Fault triggered: paper path interrupted. Log fault, pause cycle, request maintenance.';
-  els.paper.textContent = '*** PRINTER FAULT ***\nPAPER PATH INTERRUPTED\nNO STORY PRINTED';
-  logEvent('FAULT', 'paper path interrupted');
-  renderLedger('printer_fault');
-  renderReceipt('FAULT, NO PRINT');
+  els.printerOnline.textContent = 'NÃO';
+  els.paperFeed.textContent = 'PRESO';
+  els.faultState.textContent = 'CAMINHO DO PAPEL';
+  els.maintenanceNote.textContent = 'Falha acionada: caminho do papel interrompido. Registrar falha, pausar ciclo, solicitar manutenção.';
+  els.paper.textContent = '*** FALHA DA IMPRESSORA ***\nCAMINHO DO PAPEL INTERROMPIDO\nNENHUM CONTO IMPRESSO';
+  logEvent('FALHA', 'caminho do papel interrompido');
+  renderLedger('falha_impressora');
+  renderReceipt('FALHA, SEM IMPRESSÃO');
 }
 
 els.runBtn.addEventListener('click', runCycle);

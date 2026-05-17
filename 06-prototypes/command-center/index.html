@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projeto 2047 - Apparatus Console Prototype</title>
+  <title>Projeto 2047 - Console do Aparato</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -11,52 +11,52 @@
     <header class="topbar">
       <div>
         <p class="eyebrow">Projeto 2047 / Arquivo Terra Viva</p>
-        <h1>Apparatus Console Prototype</h1>
+        <h1>Console do Aparato</h1>
       </div>
       <div class="referencePlate">
-        <span>visual grammar</span>
-        <strong>operator manual + signal instrument + dot-matrix archive</strong>
+        <span>gramática visual</span>
+        <strong>apresentação original + manual técnico + instrumento de sinal + arquivo matricial</strong>
       </div>
     </header>
 
     <section class="thesis">
-      <p>The machine does not produce the future. It reveals the present being mined.</p>
+      <p>A máquina não produz futuro. Ela revela o presente sendo minerado.</p>
       <div class="controls">
-        <button id="runBtn">Run smoke cycle</button>
-        <button id="refusalBtn" class="ghost">Trigger refusal</button>
-        <button id="faultBtn" class="ghost">Trigger fault</button>
-        <button id="resetBtn" class="ghost">Reset</button>
+        <button id="runBtn">Rodar ciclo de teste</button>
+        <button id="refusalBtn" class="ghost">Acionar recusa</button>
+        <button id="faultBtn" class="ghost">Acionar falha</button>
+        <button id="resetBtn" class="ghost">Reiniciar</button>
       </div>
     </section>
 
-    <section class="stateStrip" aria-label="apparatus state strip">
-      <div class="state active" data-state="IDLE"><i></i><span>IDLE</span></div>
-      <div class="state" data-state="LISTENING"><i></i><span>LISTENING</span></div>
-      <div class="state" data-state="INGESTING"><i></i><span>INGESTING</span></div>
-      <div class="state" data-state="WRITING"><i></i><span>WRITING</span></div>
-      <div class="state" data-state="SCORING"><i></i><span>SCORING</span></div>
-      <div class="state" data-state="PRINTING"><i></i><span>PRINTING</span></div>
-      <div class="state" data-state="SILENCE"><i></i><span>SILENCE</span></div>
-      <div class="state" data-state="FAULT"><i></i><span>FAULT</span></div>
-      <div class="state" data-state="REFUSAL"><i></i><span>REFUSAL</span></div>
-      <div class="state" data-state="ARCHIVED"><i></i><span>ARCHIVED</span></div>
+    <section class="stateStrip" aria-label="faixa de estado do aparato">
+      <div class="state active" data-state="IDLE"><i></i><span>REPOUSO</span></div>
+      <div class="state" data-state="LISTENING"><i></i><span>ESCUTA</span></div>
+      <div class="state" data-state="INGESTING"><i></i><span>ENTRADA</span></div>
+      <div class="state" data-state="WRITING"><i></i><span>ESCRITA</span></div>
+      <div class="state" data-state="SCORING"><i></i><span>PARTITURA</span></div>
+      <div class="state" data-state="PRINTING"><i></i><span>INSCRIÇÃO</span></div>
+      <div class="state" data-state="SILENCE"><i></i><span>SILÊNCIO</span></div>
+      <div class="state" data-state="FAULT"><i></i><span>FALHA</span></div>
+      <div class="state" data-state="REFUSAL"><i></i><span>RECUSA</span></div>
+      <div class="state" data-state="ARCHIVED"><i></i><span>ARQUIVO</span></div>
     </section>
 
     <section class="grid">
       <article class="panel sourcePanel">
         <div class="panelHead">
           <span>01</span>
-          <h2>Source signal trace</h2>
+          <h2>Entrada / sinal do mundo</h2>
         </div>
         <div class="instrumentLabel">
-          <span>HP 3562A translation</span>
-          <strong>fictional public signal cluster</strong>
+          <span>tradução de analisador de sinal</span>
+          <strong>cluster público ficcional</strong>
         </div>
-        <svg class="trace" viewBox="0 0 520 180" role="img" aria-label="simulated signal trace">
+        <svg class="trace" viewBox="0 0 520 180" role="img" aria-label="traço de sinal simulado">
           <defs>
             <linearGradient id="traceGlow" x1="0" x2="1">
-              <stop offset="0" stop-color="#9ebc9f" />
-              <stop offset="1" stop-color="#d6a451" />
+              <stop offset="0" stop-color="#00a87b" />
+              <stop offset="1" stop-color="#d07a2d" />
             </linearGradient>
           </defs>
           <path class="gridLine" d="M0 30 H520 M0 70 H520 M0 110 H520 M0 150 H520 M60 0 V180 M180 0 V180 M300 0 V180 M420 0 V180" />
@@ -64,9 +64,9 @@
         </svg>
         <table class="miniTable">
           <tbody>
-            <tr><th>cluster</th><td>rare earths / water / e-waste / data centers</td></tr>
-            <tr><th>source</th><td>synthetic public-safe packet</td></tr>
-            <tr><th>threshold</th><td id="thresholdCell">awaiting run</td></tr>
+            <tr><th>cluster</th><td>terras raras / água / lixo eletrônico / data centers</td></tr>
+            <tr><th>fonte</th><td>pacote sintético seguro para demonstração pública</td></tr>
+            <tr><th>limiar</th><td id="thresholdCell">aguardando ciclo</td></tr>
           </tbody>
         </table>
       </article>
@@ -74,33 +74,33 @@
       <article class="panel storyPanel">
         <div class="panelHead">
           <span>02</span>
-          <h2>4-channel story generator</h2>
+          <h2>Digestão / gerador em 4 canais</h2>
         </div>
         <div class="channels">
-          <div class="channel" data-channel="source"><span>CH 1</span><strong>SOURCE</strong><em id="chSource">standby</em></div>
-          <div class="channel" data-channel="voice"><span>CH 2</span><strong>VOICE</strong><em id="chVoice">standby</em></div>
-          <div class="channel" data-channel="constraint"><span>CH 3</span><strong>CONSTRAINT</strong><em id="chConstraint">standby</em></div>
-          <div class="channel" data-channel="paper"><span>CH 4</span><strong>PAPER</strong><em id="chPaper">standby</em></div>
+          <div class="channel" data-channel="source"><span>CANAL 1</span><strong>FONTE</strong><em id="chSource">em espera</em></div>
+          <div class="channel" data-channel="voice"><span>CANAL 2</span><strong>VOZ</strong><em id="chVoice">em espera</em></div>
+          <div class="channel" data-channel="constraint"><span>CANAL 3</span><strong>RESTRIÇÃO</strong><em id="chConstraint">em espera</em></div>
+          <div class="channel" data-channel="paper"><span>CANAL 4</span><strong>PAPEL</strong><em id="chPaper">em espera</em></div>
         </div>
-        <pre id="storyOut" class="storyOut">operator note:
-load source packet to begin writing cycle.</pre>
+        <pre id="storyOut" class="storyOut">nota de operação:
+carregue um pacote de fonte para iniciar o ciclo de escrita.</pre>
       </article>
 
       <article class="panel scorePanel">
         <div class="panelHead">
           <span>03</span>
-          <h2>Score calibration table</h2>
+          <h2>Partitura / calibração</h2>
         </div>
         <table class="calibrationTable">
           <thead>
-            <tr><th>parameter</th><th>setting</th><th>instrument translation</th></tr>
+            <tr><th>parâmetro</th><th>ajuste</th><th>tradução no aparato</th></tr>
           </thead>
           <tbody>
-            <tr><td>pulse</td><td id="scorePulse">-</td><td>printer strike interval</td></tr>
-            <tr><td>density</td><td id="scoreDensity">-</td><td>ink per minute</td></tr>
-            <tr><td>line width</td><td id="scoreWidth">-</td><td>paper constraint</td></tr>
-            <tr><td>silence before</td><td id="scoreSilenceBefore">-</td><td>listening window</td></tr>
-            <tr><td>silence after</td><td id="scoreSilenceAfter">-</td><td>archive cooling</td></tr>
+            <tr><td>pulso</td><td id="scorePulse">-</td><td>intervalo da agulha</td></tr>
+            <tr><td>densidade</td><td id="scoreDensity">-</td><td>tinta por minuto</td></tr>
+            <tr><td>largura</td><td id="scoreWidth">-</td><td>restrição do papel</td></tr>
+            <tr><td>silêncio antes</td><td id="scoreSilenceBefore">-</td><td>janela de escuta</td></tr>
+            <tr><td>silêncio depois</td><td id="scoreSilenceAfter">-</td><td>resfriamento do arquivo</td></tr>
           </tbody>
         </table>
         <div class="pulseMeter"><span id="pulseNeedle"></span></div>
@@ -109,13 +109,13 @@ load source packet to begin writing cycle.</pre>
       <article class="panel printerPanel">
         <div class="panelHead">
           <span>04</span>
-          <h2>Printer feed and fault panel</h2>
+          <h2>Inscrição / impressora matricial</h2>
         </div>
         <div class="printerStatus">
-          <div><span>online</span><strong id="printerOnline">NO</strong></div>
-          <div><span>paper feed</span><strong id="paperFeed">READY</strong></div>
-          <div><span>line count</span><strong id="lineCount">0</strong></div>
-          <div><span>fault</span><strong id="faultState">NONE</strong></div>
+          <div><span>online</span><strong id="printerOnline">NÃO</strong></div>
+          <div><span>papel</span><strong id="paperFeed">PRONTO</strong></div>
+          <div><span>linhas</span><strong id="lineCount">0</strong></div>
+          <div><span>falha</span><strong id="faultState">NENHUMA</strong></div>
         </div>
         <div class="printerBody">
           <div class="tractor left"></div>
@@ -127,38 +127,38 @@ load source packet to begin writing cycle.</pre>
       <article class="panel ledgerPanel">
         <div class="panelHead">
           <span>05</span>
-          <h2>Ledger recorder</h2>
+          <h2>Arquivo / registrador</h2>
         </div>
         <div id="ledgerTrace" class="ledgerTrace"></div>
-        <pre id="ledgerOut" class="ledgerOut">{ "status": "idle" }</pre>
+        <pre id="ledgerOut" class="ledgerOut">{ "estado": "repouso" }</pre>
       </article>
 
       <article class="panel maintenancePanel">
         <div class="panelHead">
           <span>06</span>
-          <h2>Maintenance / refusal page</h2>
+          <h2>Manutenção / recusa</h2>
         </div>
         <table class="troubleTable">
           <thead>
-            <tr><th>symptom</th><th>cause</th><th>action</th></tr>
+            <tr><th>sintoma</th><th>causa</th><th>ação</th></tr>
           </thead>
           <tbody id="troubleRows">
-            <tr><td>no source</td><td>input below threshold</td><td>enter silence</td></tr>
-            <tr><td>unsafe packet</td><td>private or unclear material</td><td>refuse print</td></tr>
-            <tr><td>printer jam</td><td>paper path interrupted</td><td>log fault, pause cycle</td></tr>
+            <tr><td>sem fonte</td><td>entrada abaixo do limiar</td><td>entrar em silêncio</td></tr>
+            <tr><td>pacote inseguro</td><td>material privado ou incerto</td><td>recusar impressão</td></tr>
+            <tr><td>papel preso</td><td>caminho do papel interrompido</td><td>registrar falha e pausar ciclo</td></tr>
           </tbody>
         </table>
-        <p id="maintenanceNote" class="manualNote">No intervention required.</p>
+        <p id="maintenanceNote" class="manualNote">Nenhuma intervenção necessária.</p>
       </article>
 
       <article class="panel receiptPanel">
         <div class="panelHead">
           <span>07</span>
-          <h2>Public receipt sheet</h2>
+          <h2>Comprovante público</h2>
         </div>
-        <pre id="receiptOut" class="receiptOut">2047 APPARATUS RECEIPT
-STATUS: WAITING
-PUBLIC DATA ONLY</pre>
+        <pre id="receiptOut" class="receiptOut">COMPROVANTE DO APARATO 2047
+ESTADO: AGUARDANDO
+APENAS DADOS PÚBLICOS</pre>
       </article>
     </section>
   </main>

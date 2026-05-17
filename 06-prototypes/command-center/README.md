@@ -2,6 +2,8 @@
 
 This is a static public prototype for testing the 2047 generative loop as an operator interface.
 
+The repository documentation is in English, but the console itself is in Brazilian Portuguese because the work's operating language is pt-BR.
+
 It is not the artwork interface, not an institutional dashboard, and not a production system. It is a visual test surface for the apparatus logic:
 
 ```txt
@@ -38,7 +40,7 @@ No build step is required.
 - `references/manuals-plus-reference-map.md`
 - `references/selected-reference-set.md`
 
-The visual direction combines existing co-authorial presentation language, scanned technical manuals from Internet Archive Manuals Plus, operator consoles, and dot-matrix archive logic.
+The visual direction combines the chromatic language of the existing co-authorial presentation, scanned technical manuals from Internet Archive Manuals Plus, operator consoles, and dot-matrix archive logic.
 
 ## Public boundary
 

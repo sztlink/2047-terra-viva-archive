@@ -57,6 +57,8 @@ existing co-authorial presentation language
 
 The term `dashboard` is intentionally avoided. The preferred frame is `apparatus console` or `operator console`.
 
+After the first public version, the console interface was translated to Brazilian Portuguese and recolored to follow the chromatic direction of the existing co-authorial presentation: dark field, white typography, green/teal signal accents, orange section markers, and restrained technical panels.
+
 ## Reference set translated into interface components
 
 The second command center iteration translated the selected Manuals Plus references into concrete UI components.
