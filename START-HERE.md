@@ -79,4 +79,6 @@ The project refuses the fantasy that computation is clean or immaterial. AI depe
 
 See `EPICS.md`.
 
-The next public research block is the dot-matrix printer as archive apparatus.
+Current public research block: the dot-matrix printer as archive apparatus.
+
+Current prototype: Epson FX-2190 at AYA Studio, documented in `01-apparatus/printer-research/`.

@@ -2,6 +2,8 @@
 
 The dot-matrix printer is a central apparatus, not a nostalgic prop.
 
+Current prototype: **Epson FX-2190** installed at AYA Studio. See `printer-research/` for recovered calibration notes, CUPS / ESC-P pipeline notes, continuous paper, encoding, and failure modes.
+
 ## Why dot-matrix
 
 A dot-matrix printer carries bureaucratic memory. It belongs to invoices, reports, logs, forms, continuous paper, and administrative truth. Its sound is mechanical and public. Its output accumulates physically.
