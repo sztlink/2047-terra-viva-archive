@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Projeto 2047 apparatus flow</title>
+  <desc id="desc">Public diagram showing the flow from present signals through memory, generative engine, dot-matrix printer, continuous paper, and living archive.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f1a14" />
+    </marker>
+    <style>
+      .bg { fill: #f3ead7; }
+      .ink { fill: #1f1a14; }
+      .muted { fill: #6f6658; }
+      .box { fill: #fffaf0; stroke: #1f1a14; stroke-width: 2.5; rx: 18; }
+      .box-soft { fill: #eadfc8; stroke: #1f1a14; stroke-width: 2.5; rx: 18; }
+      .line { stroke: #1f1a14; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #6f6658; stroke-width: 2; fill: none; stroke-dasharray: 8 8; }
+      .title { font: 700 42px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: -0.02em; }
+      .label { font: 700 25px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .small { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .tiny { font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#1f1a14" stroke-width="2" />
+
+  <text x="80" y="108" class="ink title">Projeto 2047 / Arquivo Terra Viva</text>
+  <text x="80" y="143" class="muted small">Apparatus flow, public research diagram</text>
+
+  <g transform="translate(90 230)">
+    <rect class="box" x="0" y="0" width="220" height="110" rx="18" />
+    <text class="ink label" x="28" y="45">Present</text>
+    <text class="ink label" x="28" y="76">signals</text>
+    <text class="muted tiny" x="28" y="102">news, public traces</text>
+  </g>
+
+  <g transform="translate(360 230)">
+    <rect class="box" x="0" y="0" width="220" height="110" rx="18" />
+    <text class="ink label" x="28" y="45">Source</text>
+    <text class="ink label" x="28" y="76">collector</text>
+    <text class="muted tiny" x="28" y="102">filter, classify, log</text>
+  </g>
+
+  <g transform="translate(630 210)">
+    <rect class="box-soft" x="0" y="0" width="270" height="150" rx="18" />
+    <text class="ink label" x="28" y="43">Project memory</text>
+    <text class="ink label" x="28" y="75">and rules</text>
+    <text class="muted tiny" x="28" y="106">world state, tone,</text>
+    <text class="muted tiny" x="28" y="128">source ledger</text>
+  </g>
+
+  <g transform="translate(960 230)">
+    <rect class="box" x="0" y="0" width="240" height="110" rx="18" />
+    <text class="ink label" x="28" y="45">Generative</text>
+    <text class="ink label" x="28" y="76">engine</text>
+    <text class="muted tiny" x="28" y="102">constrained writing</text>
+  </g>
+
+  <g transform="translate(1270 210)">
+    <rect class="box-soft" x="0" y="0" width="230" height="150" rx="18" />
+    <text class="ink label" x="28" y="43">Dot-matrix</text>
+    <text class="ink label" x="28" y="75">printer</text>
+    <text class="muted tiny" x="28" y="106">Epson FX-2190</text>
+    <text class="muted tiny" x="28" y="128">prototype</text>
+  </g>
+
+  <path class="line" d="M 310 285 L 350 285" />
+  <path class="line" d="M 580 285 L 620 285" />
+  <path class="line" d="M 900 285 L 950 285" />
+  <path class="line" d="M 1200 285 L 1260 285" />
+
+  <g transform="translate(720 510)">
+    <rect class="box" x="0" y="0" width="270" height="110" rx="18" />
+    <text class="ink label" x="28" y="45">Continuous</text>
+    <text class="ink label" x="28" y="76">paper</text>
+    <text class="muted tiny" x="28" y="102">impact, ribbon, noise</text>
+  </g>
+
+  <g transform="translate(1070 510)">
+    <rect class="box-soft" x="0" y="0" width="270" height="110" rx="18" />
+    <text class="ink label" x="28" y="45">Living</text>
+    <text class="ink label" x="28" y="76">archive</text>
+    <text class="muted tiny" x="28" y="102">paper as evidence</text>
+  </g>
+
+  <path class="line" d="M 1385 360 C 1385 450 970 430 870 500" />
+  <path class="line" d="M 990 565 L 1060 565" />
+
+  <path class="dash" d="M 855 620 C 760 705 520 705 420 620" />
+  <text x="455" y="735" class="muted small">selected traces return to memory as state, not as endless chat</text>
+
+  <text x="80" y="820" class="muted tiny">Public diagram. Redrawn for this repository. No private infrastructure or institutional material.</text>
+</svg>

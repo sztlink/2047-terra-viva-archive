@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Material stack</title>
+  <desc id="desc">Diagram showing computation as a material stack from remote or local AI through controller, printer, paper, and e-waste body.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f1a14" />
+    </marker>
+    <style>
+      .bg { fill: #f3ead7; }
+      .ink { fill: #1f1a14; }
+      .muted { fill: #6f6658; }
+      .box { fill: #fffaf0; stroke: #1f1a14; stroke-width: 2.5; rx: 18; }
+      .body { fill: #eadfc8; stroke: #1f1a14; stroke-width: 2.5; rx: 18; }
+      .dead { fill: #d7c8ad; stroke: #1f1a14; stroke-width: 2.5; rx: 18; }
+      .line { stroke: #1f1a14; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #6f6658; stroke-width: 2.5; fill: none; stroke-dasharray: 9 8; marker-end: url(#arrow); }
+      .title { font: 700 42px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: -0.02em; }
+      .label { font: 700 26px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .small { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .tiny { font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#1f1a14" stroke-width="2" />
+
+  <text x="80" y="108" class="ink title">Material stack</text>
+  <text x="80" y="143" class="muted small">AI is not immaterial. The apparatus has a body.</text>
+
+  <g transform="translate(120 220)">
+    <rect class="box" x="0" y="0" width="300" height="120" rx="18" />
+    <text class="ink label" x="30" y="48">Remote API</text>
+    <text class="muted small" x="30" y="82">possible text / image</text>
+  </g>
+
+  <g transform="translate(120 400)">
+    <rect class="box" x="0" y="0" width="300" height="120" rx="18" />
+    <text class="ink label" x="30" y="48">Local model</text>
+    <text class="muted small" x="30" y="82">possible future mode</text>
+  </g>
+
+  <g transform="translate(530 310)">
+    <rect class="body" x="0" y="0" width="270" height="135" rx="18" />
+    <text class="ink label" x="30" y="48">Controller</text>
+    <text class="muted small" x="30" y="82">state, logs, rules</text>
+    <text class="muted tiny" x="30" y="110">visible machine body</text>
+  </g>
+
+  <g transform="translate(900 310)">
+    <rect class="body" x="0" y="0" width="300" height="135" rx="18" />
+    <text class="ink label" x="30" y="48">Dot-matrix</text>
+    <text class="ink label" x="30" y="80">printer</text>
+    <text class="muted tiny" x="30" y="110">impact, ribbon, noise</text>
+  </g>
+
+  <g transform="translate(1280 310)">
+    <rect class="body" x="0" y="0" width="210" height="135" rx="18" />
+    <text class="ink label" x="30" y="48">Paper</text>
+    <text class="ink label" x="30" y="80">archive</text>
+    <text class="muted tiny" x="30" y="110">continuous trace</text>
+  </g>
+
+  <path class="dash" d="M 420 280 C 470 280 475 340 520 360" />
+  <path class="dash" d="M 420 460 C 470 460 475 410 520 395" />
+  <path class="line" d="M 800 377 L 890 377" />
+  <path class="line" d="M 1200 377 L 1270 377" />
+
+  <g transform="translate(250 630)">
+    <rect class="dead" x="0" y="0" width="1100" height="110" rx="18" />
+    <text class="ink label" x="32" y="48">E-waste and hardware body</text>
+    <text class="muted small" x="32" y="82">rack, dead switches, drives, memory modules, cables, power supplies, labels, dust, heat</text>
+  </g>
+
+  <path class="dash" d="M 665 445 L 665 620" />
+  <path class="dash" d="M 1050 445 L 1050 620" />
+  <path class="dash" d="M 1385 445 C 1385 540 1260 575 1150 620" />
+
+  <text x="80" y="820" class="muted tiny">Cloud, hybrid, or local computation remains a technical decision. The material accountability remains in every mode.</text>
+</svg>

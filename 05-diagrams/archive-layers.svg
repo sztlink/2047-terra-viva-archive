@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Public and private archive layers</title>
+  <desc id="desc">Diagram showing private process, research archive, artwork and exhibition, and future citation layers.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f1a14" />
+    </marker>
+    <style>
+      .bg { fill: #f3ead7; }
+      .ink { fill: #1f1a14; }
+      .muted { fill: #6f6658; }
+      .private { fill: #dfd2ba; stroke: #1f1a14; stroke-width: 2.5; }
+      .public { fill: #fffaf0; stroke: #1f1a14; stroke-width: 3.5; }
+      .future { fill: #eadfc8; stroke: #1f1a14; stroke-width: 2.5; }
+      .line { stroke: #1f1a14; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .gate { fill: none; stroke: #1f1a14; stroke-width: 2.5; stroke-dasharray: 10 8; }
+      .title { font: 700 42px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: -0.02em; }
+      .label { font: 700 28px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .small { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .tiny { font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900" />
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#1f1a14" stroke-width="2" />
+
+  <text x="80" y="108" class="ink title">Archive layers</text>
+  <text x="80" y="143" class="muted small">What stays private, what becomes public, what remains in formation</text>
+
+  <g transform="translate(110 250)">
+    <rect class="private" x="0" y="0" width="320" height="310" rx="20" />
+    <text class="ink label" x="32" y="58">Private</text>
+    <text class="ink label" x="32" y="94">process</text>
+    <text class="muted small" x="32" y="145">conversations</text>
+    <text class="muted small" x="32" y="178">e-mails and messages</text>
+    <text class="muted small" x="32" y="211">budgets</text>
+    <text class="muted small" x="32" y="244">closed documents</text>
+    <text class="muted small" x="32" y="277">institutional timing</text>
+  </g>
+
+  <g transform="translate(515 205)">
+    <rect class="gate" x="0" y="0" width="210" height="400" rx="22" />
+    <text class="ink label" x="34" y="145">Review</text>
+    <text class="ink label" x="34" y="181">gate</text>
+    <text class="muted tiny" x="34" y="230">authorship</text>
+    <text class="muted tiny" x="34" y="255">timing</text>
+    <text class="muted tiny" x="34" y="280">redaction</text>
+  </g>
+
+  <g transform="translate(815 250)">
+    <rect class="public" x="0" y="0" width="320" height="310" rx="20" />
+    <text class="ink label" x="32" y="58">Research</text>
+    <text class="ink label" x="32" y="94">archive</text>
+    <text class="muted small" x="32" y="145">apparatus notes</text>
+    <text class="muted small" x="32" y="178">public diagrams</text>
+    <text class="muted small" x="32" y="211">printer research</text>
+    <text class="muted small" x="32" y="244">field receipts</text>
+    <text class="muted small" x="32" y="277">archive policy</text>
+  </g>
+
+  <g transform="translate(1230 250)">
+    <rect class="future" x="0" y="0" width="260" height="310" rx="20" />
+    <text class="ink label" x="32" y="58">Artwork</text>
+    <text class="ink label" x="32" y="94">and show</text>
+    <text class="muted small" x="32" y="145">final form</text>
+    <text class="muted small" x="32" y="178">installation</text>
+    <text class="muted small" x="32" y="211">public text</text>
+    <text class="muted small" x="32" y="244">future release</text>
+  </g>
+
+  <path class="line" d="M 430 405 L 505 405" />
+  <path class="line" d="M 725 405 L 805 405" />
+  <path class="line" d="M 1135 405 L 1220 405" />
+
+  <g transform="translate(540 665)">
+    <rect class="public" x="0" y="0" width="520" height="82" rx="18" />
+    <text class="ink label" x="32" y="50">Citable public artifact</text>
+  </g>
+  <path class="line" d="M 975 560 C 975 610 880 620 800 655" />
+
+  <text x="80" y="820" class="muted tiny">Rule: if a fragment exposes a person, negotiation, budget, institution, or unresolved authorship boundary, it stays out.</text>
+</svg>
