@@ -1,0 +1,87 @@
+{
+  "packet_id": "pkt_2047_demo_story_ready_001",
+  "schema_version": "2047-story-packet-v0.1",
+  "status": "story_ready",
+  "language": "pt-BR",
+  "created_at": "2026-05-17T22:00:00Z",
+  "apparatus_context": {
+    "interface": "Mesa de Inscrição",
+    "controller_version": "controller-prototype-v0.1",
+    "model_version": "prompt-mock-v0.1",
+    "retrieval_version": "none",
+    "printer_profile": "simulation",
+    "run_mode": "simulation",
+    "exhibition_day": null
+  },
+  "source_packet": {
+    "source_id": "source_demo_001",
+    "source_type": "fictional_public_signal_cluster",
+    "title": "Cluster ficcional: data centers, água, lixo eletrônico",
+    "summary": "Entrada sintética para teste público. Nenhum evento real é citado.",
+    "url": null,
+    "retrieved_at": "2026-05-17T22:00:00Z",
+    "rights_status": "synthetic_public_demo",
+    "allowed_use": "public_demo",
+    "public_private_classification": "synthetic",
+    "risk_note": "Não usar como evidência factual."
+  },
+  "story": {
+    "story_id": "story_demo_001",
+    "type": "conto_de_calibracao",
+    "title": "O Canal de Resfriamento",
+    "fictional_date": "2047-08-13",
+    "body": "O canal não tinha nome no arquivo municipal.\nAparecia apenas como uma linha azul ao lado do data center,\nfina como uma veia, obediente como um cabo.\n\nToda manhã, as crianças contavam os peixes mortos por número de modelo.\nAlguns tinham escamas prateadas. Outros tinham etiquetas de inventário.\nUm deles carregava um módulo de memória na boca.\n\nA impressora da guarita registrava cada espécime devagar.\nNão como desastre. Não como milagre.\nComo manutenção.",
+    "line_width_target": 72,
+    "final_artwork_claim": false
+  },
+  "score": {
+    "score_id": "score_demo_001",
+    "pulse": "slow",
+    "density": "sparse",
+    "line_width": 72,
+    "silence_before_seconds": 3,
+    "silence_after_seconds": 90,
+    "blank_line_policy": "breathing",
+    "print_rhythm_note": "Inscrição lenta, com pausas entre blocos."
+  },
+  "inscription": {
+    "inscription_id": "insc_demo_001",
+    "mode": "terminal_simulation",
+    "printer_profile": "simulation",
+    "paper": "simulated",
+    "encoding": "utf-8",
+    "line_width": 72,
+    "printable": true,
+    "reason_not_printable": null
+  },
+  "ledger": {
+    "event_type": "simulated",
+    "source_refs": [
+      "source_demo_001"
+    ],
+    "story_id": "story_demo_001",
+    "score_id": "score_demo_001",
+    "inscription_id": "insc_demo_001",
+    "model_version": "prompt-mock-v0.1",
+    "controller_version": "controller-prototype-v0.1",
+    "rights_status": "synthetic_public_demo",
+    "requires_human_review": true,
+    "public_receipt": true
+  },
+  "receipt": {
+    "receipt_id": "rcpt_demo_001",
+    "public_title": "Conto de calibração - O Canal de Resfriamento",
+    "public_status": "calibration story",
+    "public_note": "Material ficcional sintético para teste do aparato.",
+    "include_story_excerpt": true,
+    "include_source_summary": true,
+    "safe_to_publish": true
+  },
+  "review": {
+    "human_review_required": true,
+    "coauthor_review_required": true,
+    "approved_for_public_archive": false,
+    "approved_for_physical_print": false,
+    "notes": "Demonstração pública, não voz final da obra."
+  }
+}

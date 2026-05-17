@@ -1,0 +1,66 @@
+{
+  "packet_id": "pkt_2047_demo_fault_001",
+  "schema_version": "2047-story-packet-v0.1",
+  "status": "fault",
+  "language": "pt-BR",
+  "created_at": "2026-05-17T22:10:00Z",
+  "apparatus_context": {
+    "interface": "Mesa de Inscrição",
+    "controller_version": "controller-prototype-v0.1",
+    "model_version": "none",
+    "retrieval_version": "none",
+    "printer_profile": "fx-2190",
+    "run_mode": "physical_print",
+    "exhibition_day": null
+  },
+  "source_packet": null,
+  "story": null,
+  "score": {
+    "score_id": "score_fault_001",
+    "pulse": "none",
+    "density": "silence",
+    "line_width": 72,
+    "silence_before_seconds": 0,
+    "silence_after_seconds": 60,
+    "blank_line_policy": "none",
+    "print_rhythm_note": "Falha mecânica. Sem inscrição."
+  },
+  "inscription": {
+    "inscription_id": "insc_fault_001",
+    "mode": "no_print",
+    "printer_profile": "fx-2190",
+    "paper": "continuous",
+    "encoding": "escp",
+    "line_width": 72,
+    "printable": false,
+    "reason_not_printable": "Paper path interrupted."
+  },
+  "ledger": {
+    "event_type": "fault",
+    "source_refs": [],
+    "story_id": null,
+    "score_id": "score_fault_001",
+    "inscription_id": "insc_fault_001",
+    "model_version": "none",
+    "controller_version": "controller-prototype-v0.1",
+    "rights_status": "not_applicable",
+    "requires_human_review": false,
+    "public_receipt": true
+  },
+  "receipt": {
+    "receipt_id": "rcpt_fault_001",
+    "public_title": "Falha de inscrição",
+    "public_status": "fault",
+    "public_note": "O caminho do papel foi interrompido. O ciclo foi pausado.",
+    "include_story_excerpt": false,
+    "include_source_summary": false,
+    "safe_to_publish": true
+  },
+  "review": {
+    "human_review_required": false,
+    "coauthor_review_required": false,
+    "approved_for_public_archive": true,
+    "approved_for_physical_print": false,
+    "notes": "Mechanical fault can be archived as apparatus event."
+  }
+}

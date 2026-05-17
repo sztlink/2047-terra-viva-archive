@@ -75,6 +75,7 @@ It reveals the present being mined.
 03-field-notes/
   2026-05-initial-development.md
   2026-05-command-center-smoke.md
+  2026-05-story-packet-smoke.md
 
 04-archive-policy/
   public-private-layers.md
@@ -85,6 +86,7 @@ It reveals the present being mined.
 
 06-prototypes/
   command-center/
+  story-packets/
 
 assets/prototype-screenshots/
   command-center-v2-2026-05-17.png

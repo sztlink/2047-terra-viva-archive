@@ -1,0 +1,79 @@
+{
+  "packet_id": "pkt_2047_demo_silence_001",
+  "schema_version": "2047-story-packet-v0.1",
+  "status": "silence",
+  "language": "pt-BR",
+  "created_at": "2026-05-17T22:15:00Z",
+  "apparatus_context": {
+    "interface": "Mesa de Inscrição",
+    "controller_version": "controller-prototype-v0.1",
+    "model_version": "prompt-mock-v0.1",
+    "retrieval_version": "none",
+    "printer_profile": "simulation",
+    "run_mode": "simulation",
+    "exhibition_day": null
+  },
+  "source_packet": {
+    "source_id": "source_weak_001",
+    "source_type": "fictional_public_signal_cluster",
+    "title": "Sinal fraco",
+    "summary": "A entrada era genérica demais para sustentar inscrição.",
+    "url": null,
+    "retrieved_at": "2026-05-17T22:15:00Z",
+    "rights_status": "synthetic_public_demo",
+    "allowed_use": "evaluation",
+    "public_private_classification": "synthetic",
+    "risk_note": "Below threshold."
+  },
+  "story": null,
+  "score": {
+    "score_id": "score_silence_001",
+    "pulse": "none",
+    "density": "silence",
+    "line_width": 72,
+    "silence_before_seconds": 0,
+    "silence_after_seconds": 240,
+    "blank_line_policy": "none",
+    "print_rhythm_note": "Silêncio como resposta."
+  },
+  "inscription": {
+    "inscription_id": "insc_silence_001",
+    "mode": "no_print",
+    "printer_profile": "simulation",
+    "paper": "simulated",
+    "encoding": "utf-8",
+    "line_width": 72,
+    "printable": false,
+    "reason_not_printable": "Source below threshold."
+  },
+  "ledger": {
+    "event_type": "silence",
+    "source_refs": [
+      "source_weak_001"
+    ],
+    "story_id": null,
+    "score_id": "score_silence_001",
+    "inscription_id": "insc_silence_001",
+    "model_version": "prompt-mock-v0.1",
+    "controller_version": "controller-prototype-v0.1",
+    "rights_status": "synthetic_public_demo",
+    "requires_human_review": false,
+    "public_receipt": true
+  },
+  "receipt": {
+    "receipt_id": "rcpt_silence_001",
+    "public_title": "Silêncio do aparato",
+    "public_status": "silence",
+    "public_note": "O sinal não sustentou uma inscrição. O aparato entrou em silêncio.",
+    "include_story_excerpt": false,
+    "include_source_summary": true,
+    "safe_to_publish": true
+  },
+  "review": {
+    "human_review_required": false,
+    "coauthor_review_required": false,
+    "approved_for_public_archive": true,
+    "approved_for_physical_print": false,
+    "notes": "Silence is a valid apparatus event."
+  }
+}

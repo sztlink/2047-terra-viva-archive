@@ -309,7 +309,9 @@ Document tests as receipts: small, factual, reproducible fragments of the appara
 **Current outputs**
 
 - `03-field-notes/2026-05-command-center-smoke.md`
+- `03-field-notes/2026-05-story-packet-smoke.md`
 - `assets/prototype-screenshots/command-center-v2-2026-05-17.png`
+- `06-prototypes/story-packets/`
 
 **Remaining outputs**
 

@@ -1,0 +1,79 @@
+{
+  "packet_id": "pkt_2047_demo_refusal_001",
+  "schema_version": "2047-story-packet-v0.1",
+  "status": "refusal",
+  "language": "pt-BR",
+  "created_at": "2026-05-17T22:05:00Z",
+  "apparatus_context": {
+    "interface": "Mesa de Inscrição",
+    "controller_version": "controller-prototype-v0.1",
+    "model_version": "prompt-mock-v0.1",
+    "retrieval_version": "none",
+    "printer_profile": "simulation",
+    "run_mode": "simulation",
+    "exhibition_day": null
+  },
+  "source_packet": {
+    "source_id": "source_private_001",
+    "source_type": "restricted_project_material",
+    "title": "Private e-mail fragment",
+    "summary": "Private source. Full content withheld.",
+    "url": null,
+    "retrieved_at": null,
+    "rights_status": "not-cleared",
+    "allowed_use": "none",
+    "public_private_classification": "private",
+    "risk_note": "Private process cannot become public story source."
+  },
+  "story": null,
+  "score": {
+    "score_id": "score_refusal_001",
+    "pulse": "none",
+    "density": "silence",
+    "line_width": 72,
+    "silence_before_seconds": 0,
+    "silence_after_seconds": 180,
+    "blank_line_policy": "none",
+    "print_rhythm_note": "Recusa sem inscrição narrativa."
+  },
+  "inscription": {
+    "inscription_id": "insc_refusal_001",
+    "mode": "no_print",
+    "printer_profile": "simulation",
+    "paper": "simulated",
+    "encoding": "utf-8",
+    "line_width": 72,
+    "printable": false,
+    "reason_not_printable": "Source is private and not cleared."
+  },
+  "ledger": {
+    "event_type": "refusal",
+    "source_refs": [
+      "source_private_001"
+    ],
+    "story_id": null,
+    "score_id": "score_refusal_001",
+    "inscription_id": "insc_refusal_001",
+    "model_version": "prompt-mock-v0.1",
+    "controller_version": "controller-prototype-v0.1",
+    "rights_status": "not-cleared",
+    "requires_human_review": false,
+    "public_receipt": true
+  },
+  "receipt": {
+    "receipt_id": "rcpt_refusal_001",
+    "public_title": "Recusa de inscrição",
+    "public_status": "refusal",
+    "public_note": "A inscrição foi recusada porque a origem do material não está liberada.",
+    "include_story_excerpt": false,
+    "include_source_summary": false,
+    "safe_to_publish": true
+  },
+  "review": {
+    "human_review_required": false,
+    "coauthor_review_required": false,
+    "approved_for_public_archive": true,
+    "approved_for_physical_print": false,
+    "notes": "Public receipt may record refusal without exposing source."
+  }
+}

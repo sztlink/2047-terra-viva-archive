@@ -1,0 +1,103 @@
+# Story packet smoke prototype
+
+This folder contains a public-safe technical smoke test for the Projeto 2047 writing apparatus.
+
+It does not call AI models, does not use private corpus, does not access the network, and does not print. It only generates deterministic JSON fixtures that follow the conceptual story packet schema.
+
+Related document:
+
+- `../../02-generative-system/story-packet-schema.md`
+
+## Purpose
+
+The smoke test turns the conceptual architecture into testable artifacts:
+
+```txt
+schema document
+  -> demo JSON packets
+  -> validation pass/fail
+  -> public markdown receipts
+```
+
+This prepares the path for a future controller and for the Mesa de Inscrição to read packets instead of hardcoded demo data.
+
+## Files
+
+```txt
+generate-demo-packets.js
+validate-demo-packets.js
+render-demo-receipts.js
+run-smoke.js
+output/
+  story-ready.demo.json
+  refusal.demo.json
+  fault.demo.json
+  silence.demo.json
+receipts/
+  story-ready.receipt.md
+  refusal.receipt.md
+  fault.receipt.md
+  silence.receipt.md
+```
+
+## Run
+
+From this folder:
+
+```bash
+node run-smoke.js
+```
+
+Or from the repository root:
+
+```bash
+node 06-prototypes/story-packets/run-smoke.js
+```
+
+## Packet statuses
+
+The smoke test covers four valid statuses:
+
+- `story_ready`
+- `refusal`
+- `fault`
+- `silence`
+
+## Public boundary
+
+All data is synthetic or generic.
+
+The demo packets do not include:
+
+- private conversations;
+- institutional documents;
+- budgets;
+- supplier data;
+- internal infrastructure;
+- credentials;
+- final artwork text;
+- model training corpus;
+- unapproved co-authorial material.
+
+## Validation
+
+The validator checks the basic apparatus contract:
+
+- schema version;
+- status;
+- pt-BR language;
+- required top-level fields;
+- story requirements for `story_ready`;
+- non-printability for `refusal`, `fault`, and `silence`;
+- public-safe receipt flag;
+- no physical print approval.
+
+It is intentionally lightweight and dependency-free. A stricter JSON Schema validator may be added later.
+
+## Next steps
+
+- Connect Mesa de Inscrição to load one of these packets.
+- Add an explicit JSON Schema file if needed.
+- Add receipt export to the controller.
+- Add a dry-run terminal inscription renderer.
+- Use evaluation prompts before calling any model.
