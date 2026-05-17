@@ -1,0 +1,22 @@
+# Local and private files
+.env
+.env.*
+*.local
+.DS_Store
+Thumbs.db
+
+# Private material never meant for this repo
+private/
+internal/
+budget/
+budgets/
+whatsapp/
+emails/
+institutional/
+procurement/
+
+# Generated scratch
+.tmp/
+tmp/
+*.log
+node_modules/
