@@ -66,6 +66,7 @@ It reveals the present being mined.
   model-voice-and-training.md
   corpus-policy.md
   fine-tuning-vs-rag.md
+  evaluation-prompts.md
   source-ledger.md
   print-ledger-schema.md
   fallback-modes.md
