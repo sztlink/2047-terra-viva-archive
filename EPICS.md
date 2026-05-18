@@ -243,13 +243,14 @@ The duration is **not confirmed** in the public archive. Do not assume 100 days 
 - `01-apparatus/local-controller.md`
 - `01-apparatus/runtime-requirements.md`
 - `01-apparatus/printer-connection.md`
+- `01-apparatus/controller-recovery.md`
+- `01-apparatus/process-supervision.md`
+- `01-apparatus/local-logs.md`
 - controller notes inside `01-apparatus/system-overview.md`
 
 **Remaining outputs**
 
-- `01-apparatus/controller-recovery.md`
-- `01-apparatus/process-supervision.md`
-- `01-apparatus/local-logs.md`
+- Public runtime receipts from future tests
 
 **Felipe input needed**
 

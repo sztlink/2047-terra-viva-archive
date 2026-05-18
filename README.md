@@ -57,6 +57,9 @@ It reveals the present being mined.
   dot-matrix-printer.md
   local-controller.md
   runtime-requirements.md
+  controller-recovery.md
+  process-supervision.md
+  local-logs.md
   printer-connection.md
   hardware-ewaste-scenography.md
 
