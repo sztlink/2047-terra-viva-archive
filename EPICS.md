@@ -166,6 +166,7 @@ Define how the machine writes short stories without becoming an unconstrained ch
 **Current outputs**
 
 - `02-generative-system/pipeline.md`
+- `02-generative-system/source-curation-panel.md`
 - `02-generative-system/memory-and-state.md`
 - `02-generative-system/dramaturgical-constraints.md`
 - `02-generative-system/sonic-cadence-and-score.md`

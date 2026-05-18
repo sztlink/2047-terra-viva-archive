@@ -65,6 +65,7 @@ It reveals the present being mined.
 
 02-generative-system/
   pipeline.md
+  source-curation-panel.md
   memory-and-state.md
   dramaturgical-constraints.md
   sonic-cadence-and-score.md
